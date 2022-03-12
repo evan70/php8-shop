@@ -1,0 +1,30 @@
+[2021-11-07 11:34:43] Текст ошибки: Undefined variable $test | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\public\index.php | Строка: 13
+=================
+[2021-11-07 11:35:31] Текст ошибки: Undefined variable $test | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\public\index.php | Строка: 13
+=================
+[2021-11-07 11:35:49] Текст ошибки: Возникла ошибочка! | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\public\index.php | Строка: 11
+=================
+[2021-11-07 11:39:43] Текст ошибки: Возникла ошибочка! | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\public\index.php | Строка: 11
+=================
+[2021-11-07 13:53:27] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 35
+=================
+[2021-11-07 13:59:20] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 38
+=================
+[2021-11-07 14:01:07] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 42
+=================
+[2021-11-07 14:01:12] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 42
+=================
+[2021-11-07 14:01:30] Текст ошибки: Контроллер app\controllers\MainController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 42
+=================
+[2021-11-07 14:01:45] Текст ошибки: Метод app\controllers\MainController::indexAction не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 39
+=================
+[2021-11-07 14:02:51] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 42
+=================
+[2021-11-07 14:03:02] Текст ошибки: Метод app\controllers\PageController::viewAction не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 39
+=================
+[2021-11-07 14:03:34] Текст ошибки: Контроллер app\controllers\admin\MainController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 42
+=================
+[2021-11-07 14:04:08] Текст ошибки: Метод app\controllers\admin\MainController::indexAction не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 39
+=================
+[2021-11-07 14:05:38] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 46
+=================

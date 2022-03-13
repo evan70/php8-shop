@@ -30,7 +30,7 @@ abstract class Controller
     public function getView()
     {
         $this->view = $this->view ?: $this->route['action'];
-
+        (new View($this->route, $this->layout, $this->view, $this->meta))->render($this->data);
     }
 
     public function set($data)

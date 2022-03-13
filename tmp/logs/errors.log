@@ -98,3 +98,15 @@
 =================
 [2021-11-09 11:27:19] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
 =================
+[2021-11-09 11:53:45] Текст ошибки: Call to a member function find() on null | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка: 1010
+=================
+[2021-11-09 11:53:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:56:04] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 15
+=================
+[2021-11-09 11:57:39] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 17
+=================
+[2021-11-09 11:58:10] Текст ошибки: Typed property wfm\Controller::$model must not be accessed before initialization | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 17
+=================
+[2021-11-09 11:58:44] Текст ошибки: compact(): Undefined variable $names | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 21
+=================

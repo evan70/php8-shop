@@ -68,3 +68,33 @@
 =================
 [2021-11-08 14:27:47] Текст ошибки: Не найден шаблон D:\Server538\OpenServer\domains\new-ishop.loc/app/views/layouts/ishop.php | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 44
 =================
+[2021-11-09 11:10:11] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:10:34] Текст ошибки: Undefined variable $test | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\Main\index.php | Строка: 2
+=================
+[2021-11-09 11:10:56] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:12:33] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:18:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:19:00] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:19:37] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:19:50] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:20:12] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:22:30] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:24:34] Текст ошибки: Undefined variable $test | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\Main\index.php | Строка: 3
+=================
+[2021-11-09 11:25:02] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:25:32] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:26:49] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 11:27:19] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================

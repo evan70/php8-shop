@@ -46,4 +46,12 @@ class View
         }
     }
 
+    public function getMeta()
+    {
+        $out = '<title>' . h($this->meta['title']) . '</title>' . PHP_EOL;
+        $out .= '<meta name="description" content="' . h($this->meta['description']) . '">' . PHP_EOL;
+        $out .= '<meta name="keywords" content="' . h($this->meta['keywords']) . '">' . PHP_EOL;
+        return $out;
+    }
+
 }

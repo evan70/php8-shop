@@ -8,11 +8,13 @@ use wfm\Controller;
 class MainController extends Controller
 {
 
-//    public false|string $layout = 'test2';
-
     public function indexAction()
     {
-//        $this->layout = 'default';
+        $names = ['John', 'Dave', 'Katy'];
+        $this->setMeta('Главная страница', 'Description...', 'keywords...');
+//        $this->set(['test' => 'TEST VAR', 'name' => 'John']);
+//        $this->set(['names' => $names]);
+        $this->set(compact('names'));
     }
 
 }

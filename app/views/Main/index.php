@@ -1,34 +1,34 @@
-<div class="container-fluid my-carousel">
+<?php if (!empty($slides)): ?>
+    <div class="container-fluid my-carousel">
 
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel"
+             data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <?php for ($i = 0; $i < count($slides); $i++): ?>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?= $i ?>" <?php if ($i == 0) echo 'class="active"' ?> aria-current="true" aria-label="Slide <?= $i ?>"></button>
+                <?php endfor; ?>
+            </div>
+            <div class="carousel-inner">
+                <?php $i = 1; foreach ($slides as $slide): ?>
+                <div class="carousel-item <?php if ($i == 1) echo 'active' ?>">
+                    <img src="<?= PATH . $slide->img ?>" class="d-block w-100" alt="">
+                </div>
+                <?php $i++; endforeach; ?>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="<?= PATH ?>/assets/img/1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="<?= PATH ?>/assets/img/2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="<?= PATH ?>/assets/img/3.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+
     </div>
-
-
-</div>
+<?php endif; ?>
 
 <section class="featured-products">
     <div class="container">
@@ -44,7 +44,8 @@
                     </div>
                     <div class="product-details">
                         <h4><a href="product.html">iPhone iPhone iPhone iPhone iPhone</a></h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum! 2Lorem
+                            ipsum dolor sit amet, consectetur adipisicing elit. Vero, possimus nostrum!</p>
                         <div class="product-bottom-details d-flex justify-content-between">
                             <div class="product-price"><small>$96.00</small>$230.99</div>
                             <div class="product-links">
@@ -97,7 +98,8 @@
             <div class="col-lg-4 col-sm-6 mb-3">
                 <div class="product-card">
                     <div class="product-tumb">
-                        <a href="product.html"><img src="<?= PATH ?>/assets/img/products/apple_cinema_30.jpg" alt=""></a>
+                        <a href="product.html"><img src="<?= PATH ?>/assets/img/products/apple_cinema_30.jpg"
+                                                    alt=""></a>
                     </div>
                     <div class="product-details">
                         <h4><a href="product.html">Apple cinema 30"</a></h4>

@@ -262,3 +262,7 @@
 =================
 [2021-11-11 15:32:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
 =================
+[2021-11-12 14:54:44] Текст ошибки: Undefined array key "title" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\View.php | Строка: 53
+=================
+[2021-11-12 14:58:36] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================

@@ -110,3 +110,7 @@
 =================
 [2021-11-09 11:58:44] Текст ошибки: compact(): Undefined variable $names | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\MainController.php | Строка: 21
 =================
+[2021-11-09 19:27:10] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================
+[2021-11-09 19:35:54] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
+=================

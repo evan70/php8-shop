@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 10 2021 г., 12:43
+-- Время создания: Ноя 12 2021 г., 15:43
 -- Версия сервера: 10.1.44-MariaDB
 -- Версия PHP: 8.0.1
 
@@ -144,21 +144,21 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `category_id`, `slug`, `price`, `old_price`, `status`, `hit`, `img`, `is_download`) VALUES
-(1, 7, 'canon-eos-5d', 10, 12, 1, 1, 'uploads/no_image.jpg', 0),
-(2, 4, 'apple-cinema-30', 20, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(3, 4, 'imac', 25, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(4, 6, 'iphone', 10, 0, 1, 1, 'uploads/no_image.jpg', 0),
-(5, 5, 'cifrovoj-tovar', 5, 0, 1, 1, 'uploads/no_image.jpg', 1),
-(6, 1, 'cifrovoj-tovar-2', 21, 0, 1, 0, 'uploads/no_image.jpg', 1),
-(7, 1, 'kompyuter-2', 22, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(8, 1, 'kompyuter-3', 23, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(9, 1, 'kompyuter-4', 24, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(10, 1, 'kompyuter-5', 25, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(11, 1, 'kompyuter-6', 26, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(12, 1, 'kompyuter-7', 27, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(13, 1, 'kompyuter-8', 28, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(14, 1, 'kompyuter-9', 29, 0, 1, 0, 'uploads/no_image.jpg', 0),
-(15, 1, 'kompyuter-10', 30, 0, 1, 0, 'uploads/no_image.jpg', 0);
+(1, 7, 'canon-eos-5d', 10, 12, 1, 1, '/public/uploads/2021/11/12/canon_eos_5d_1.jpg', 0),
+(2, 4, 'apple-cinema-30', 20, 0, 1, 1, '/public/uploads/2021/11/12/apple_cinema_30.jpg', 0),
+(3, 4, 'imac', 25, 0, 1, 1, '/public/uploads/2021/11/12/imac_1.jpg', 0),
+(4, 6, 'iphone', 10, 0, 1, 1, '/public/uploads/2021/11/12/iphone_1.jpg', 0),
+(5, 5, 'cifrovoj-tovar', 5, 0, 1, 1, '/public/uploads/2021/11/12/hp_1.jpg', 1),
+(6, 1, 'cifrovoj-tovar-2', 21, 0, 1, 0, '/public/uploads/no_image.jpg', 1),
+(7, 1, 'kompyuter-2', 22, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(8, 1, 'kompyuter-3', 23, 0, 1, 1, '/public/uploads/no_image.jpg', 0),
+(9, 1, 'kompyuter-4', 24, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(10, 1, 'kompyuter-5', 25, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(11, 1, 'kompyuter-6', 26, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(12, 1, 'kompyuter-7', 27, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(13, 1, 'kompyuter-8', 28, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(14, 1, 'kompyuter-9', 29, 0, 1, 0, '/public/uploads/no_image.jpg', 0),
+(15, 1, 'kompyuter-10', 30, 0, 1, 0, '/public/uploads/no_image.jpg', 0);
 
 -- --------------------------------------------------------
 
@@ -228,9 +228,9 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`id`, `img`) VALUES
-(1, '/public/uploads/images/slider/1.jpg'),
-(2, '/public/uploads/images/slider/2.jpg'),
-(3, '/public/uploads/images/slider/3.jpg');
+(1, '/public/uploads/slider/1.jpg'),
+(2, '/public/uploads/slider/2.jpg'),
+(3, '/public/uploads/slider/3.jpg');
 
 --
 -- Индексы сохранённых таблиц

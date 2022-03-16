@@ -266,3 +266,7 @@
 =================
 [2021-11-12 14:58:36] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
 =================
+[2021-11-12 15:40:01] Текст ошибки: Undefined variable $products | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\parts\products_loop.php | Строка: 4
+=================
+[2021-11-12 15:40:15] Текст ошибки: Undefined variable $products | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\parts\products_loop.php | Строка: 4
+=================

@@ -354,3 +354,9 @@
 =================
 [2021-11-13 13:47:58] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 63
 =================
+[2022-03-20 23:06:14] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-03-20 23:09:00] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'php8cart.language' doesn't exist | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
+=================
+[2022-03-20 23:13:27] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 869
+=================

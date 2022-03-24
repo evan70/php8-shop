@@ -11,7 +11,7 @@ use wfm\App;
 class CartController extends AppController
 {
 
-    public function addAction()
+    public function addAction(): bool
     {
         $lang = App::$app->getProperty('language');
         $id = get('id');
@@ -22,7 +22,16 @@ class CartController extends AppController
         }
 
         $product = $this->model->get_product($id, $lang);
-        debug($product,1);
+        if (!$product) {
+            return false;
+        }
+
+        $this->model->add_to_cart($product, $qty);
+        if ($this->isAjax()) {
+            debug($_SESSION['cart'],1);
+        }
+        redirect();
+        return true;
     }
 
 }

@@ -1,0 +1,24 @@
+a:2:{s:4:"data";s:877:"<li class="nav-item ">
+    <a class="nav-link " href="category/kompyutery" >Компьютеры</a>
+    </li>
+<li class="nav-item ">
+    <a class="nav-link " href="category/planshety" >Планшеты</a>
+    </li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="category/noutbuki" data-bs-toggle="dropdown">Ноутбуки</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="nav-item ">
+    <a class="nav-link " href="category/mac" >Mac</a>
+    </li>
+<li class="nav-item ">
+    <a class="nav-link " href="category/windows" >Windows</a>
+    </li>
+        </ul>
+    </li>
+<li class="nav-item ">
+    <a class="nav-link " href="category/telefony" >Телефоны</a>
+    </li>
+<li class="nav-item ">
+    <a class="nav-link " href="category/kamery" >Камеры</a>
+    </li>
+";s:8:"end_time";i:1637058114;}

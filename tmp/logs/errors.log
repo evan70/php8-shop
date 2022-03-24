@@ -990,3 +990,19 @@
 =================
 [2021-11-15 14:09:51] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
+[2021-11-16 12:37:57] Текст ошибки: Контроллер app\controllers\PageController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-11-16 12:50:48] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-16 12:52:43] Текст ошибки: file_put_contents(D:\Server538\OpenServer\domains\new-ishop.loc/tmp/cache/098f6bcd4621d373cade4e832627b4f6.txt): Failed to open stream: No such file or directory | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Cache.php | Строка: 16
+=================
+[2021-11-16 12:52:43] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-16 12:53:22] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-16 12:53:32] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-16 12:53:34] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-11-16 12:53:46] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================

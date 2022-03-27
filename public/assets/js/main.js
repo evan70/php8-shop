@@ -9,6 +9,20 @@ $(function() {
 		modal.show();
 	}
 
+	$('#get-cart').on('click', function (e) {
+		e.preventDefault();
+		$.ajax({
+			url: 'cart/show',
+			type: 'GET',
+			success: function (res) {
+				showCart(res);
+			},
+			error: function () {
+				alert('Error!');
+			}
+		});
+	});
+
 	$('.add-to-cart').on('click', function (e) {
 		e.preventDefault();
 		const id = $(this).data('id');
@@ -20,7 +34,7 @@ $(function() {
 			type: 'GET',
 			data: {id: id, qty: qty},
 			success: function (res) {
-				showCart(res)
+				showCart(res);
 			},
 			error: function () {
 				alert('Error!');

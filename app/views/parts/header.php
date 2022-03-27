@@ -1,7 +1,5 @@
 <?php
-
 use wfm\View;
-
 /** @var $this View */
 ?>
 <!doctype html>
@@ -13,8 +11,7 @@ use wfm\View;
     <link rel="stylesheet" href="<?= PATH ?>/assets/bootstrap/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
-          integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="<?= PATH ?>/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="<?= PATH ?>/assets/css/main.css">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= PATH ?>/assets/img/favicon.png">
@@ -71,18 +68,12 @@ use wfm\View;
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid p-0">
                     <a class="navbar-brand" href="<?= base_url() ?>"><?= \wfm\App::$app->getProperty('site_name') ?></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <?php new \app\widgets\menu\Menu([
-                            'class' => 'navbar-nav ms-auto mb-2 mb-lg-0',
-                            'cache' => 30,
-                        ]) ?>
-                        <!--<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link" href="category.html">Компьютеры</a>
                             </li>
@@ -104,7 +95,7 @@ use wfm\View;
                             <li class="nav-item">
                                 <a class="nav-link" href="category.html">Камеры</a>
                             </li>
-                        </ul>-->
+                        </ul>
                     </div>
 
                 </div>

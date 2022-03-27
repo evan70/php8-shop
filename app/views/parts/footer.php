@@ -58,47 +58,8 @@ use wfm\View;
                 <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <table class="table text-start">
-                    <thead>
-                    <tr>
-                        <th scope="col">Фото</th>
-                        <th scope="col">Товар</th>
-                        <th scope="col">Кол-во</th>
-                        <th scope="col">Цена</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>
-                            <a href="#"><img src="<?= PATH ?>/assets/img/products/apple_cinema_30.jpg" alt=""></a>
-                        </td>
-                        <td><a href="#">Apple cinema</a></td>
-                        <td>1</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="#"><img src="<?= PATH ?>/assets/img/products/canon_eos_5d_1.jpg" alt=""></a>
-                        </td>
-                        <td><a href="#">Canon EOS</a></td>
-                        <td>1</td>
-                        <td>100</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <a href="#"><img src="<?= PATH ?>/assets/img/products/hp_1.jpg" alt=""></a>
-                        </td>
-                        <td><a href="#">HP</a></td>
-                        <td>1</td>
-                        <td>100</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger ripple" data-bs-dismiss="modal">Продолжить покупки</button>
-                <button type="button" class="btn btn-primary">Оформить заказ</button>
+            <div class="modal-cart-content">
+
             </div>
         </div>
     </div>

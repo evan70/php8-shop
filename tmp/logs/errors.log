@@ -1158,3 +1158,9 @@
 =================
 [2021-11-28 13:05:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
+[2021-11-28 13:39:17] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 19
+=================
+[2021-11-28 13:39:26] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 19
+=================
+[2021-11-28 13:43:25] Текст ошибки: app\models\Breadcrumbs::getBreadcrumbs(): Return value must be of type string, none returned | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Breadcrumbs.php | Строка: 18
+=================

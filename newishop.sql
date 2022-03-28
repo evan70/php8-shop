@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 12 2021 г., 15:43
+-- Время создания: Ноя 28 2021 г., 13:19
 -- Версия сервера: 10.1.44-MariaDB
 -- Версия PHP: 8.0.1
 
@@ -215,6 +215,26 @@ INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `conten
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `product_gallery`
+--
+
+CREATE TABLE `product_gallery` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `product_id` int(10) UNSIGNED NOT NULL,
+  `img` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `product_gallery`
+--
+
+INSERT INTO `product_gallery` (`id`, `product_id`, `img`) VALUES
+(1, 2, '/public/uploads/images/1.jpg'),
+(2, 2, '/public/uploads/images/2.jpg');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `slider`
 --
 
@@ -275,6 +295,12 @@ ALTER TABLE `product_description`
   ADD PRIMARY KEY (`product_id`,`language_id`);
 
 --
+-- Индексы таблицы `product_gallery`
+--
+ALTER TABLE `product_gallery`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Индексы таблицы `slider`
 --
 ALTER TABLE `slider`
@@ -307,6 +333,12 @@ ALTER TABLE `name`
 --
 ALTER TABLE `product`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT для таблицы `product_gallery`
+--
+ALTER TABLE `product_gallery`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT для таблицы `slider`

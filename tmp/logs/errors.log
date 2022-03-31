@@ -1286,3 +1286,13 @@
 =================
 [2021-11-30 21:12:08] Текст ошибки: Too few arguments to function app\models\Category::get_products(), 2 passed in D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\CategoryController.php on line 36 and exactly 4 expected | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Category.php | Строка: 32
 =================
+[2021-12-01 19:59:25] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-01 19:59:25] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-01 19:59:34] Текст ошибки: Контроллер app\controllers\SearchController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-01 20:09:32] Текст ошибки: Division by zero | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Pagination.php | Строка: 103
+=================
+[2021-12-01 20:20:29] Текст ошибки: Undefined variable $category | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\Search\index.php | Строка: 20
+=================

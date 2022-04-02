@@ -1298,3 +1298,7 @@
 =================
 [2021-12-02 13:04:48] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 24
 =================
+[2021-12-02 13:15:23] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-02 13:29:42] Текст ошибки: Not found language wishlist | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\language\Language.php | Строка: 42
+=================

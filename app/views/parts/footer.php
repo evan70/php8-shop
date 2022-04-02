@@ -75,6 +75,7 @@ use wfm\View;
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
 <script src="<?= PATH ?>/assets/js/jquery.magnific-popup.min.js"></script>
+<script src="<?= PATH ?>/assets/js/sweetalert2.js"></script>
 <script src="<?= PATH ?>/assets/js/main.js"></script>
 
 </body>

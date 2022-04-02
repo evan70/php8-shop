@@ -1296,3 +1296,5 @@
 =================
 [2021-12-01 20:20:29] Текст ошибки: Undefined variable $category | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\views\Search\index.php | Строка: 20
 =================
+[2021-12-02 13:04:48] Текст ошибки: count(): Argument #1 ($value) must be of type Countable|array, bool given | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\Wishlist.php | Строка: 24
+=================

@@ -80,6 +80,10 @@ $(function() {
 
 	// CART
 
+	$('#input-sort').on('change', function () {
+		window.location = PATH + window.location.pathname + '?' + $(this).val();
+	});
+
 	$('.open-search').click(function(e) {
 		e.preventDefault();
 		$('#search').addClass('active');
@@ -122,6 +126,24 @@ $(function() {
 	$('#languages button').on('click', function () {
 		const lang_code = $(this).data('langcode');
 		window.location = PATH + '/language/change?lang=' + lang_code;
+	});
+
+	$('.product-card').on('click', '.add-to-wishlist', function (e) {
+		e.preventDefault();
+		const id = $(this).data('id');
+		const $this = $(this);
+		$.ajax({
+			url: 'wishlist/add',
+			type: 'GET',
+			data: {id: id},
+			success: function (res) {
+				res = JSON.parse(res);
+				console.log(res);
+			},
+			error: function () {
+				alert('Error!');
+			}
+		});
 	});
 
 });

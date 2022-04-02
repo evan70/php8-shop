@@ -36,4 +36,16 @@ class WishlistController extends AppController
         exit(json_encode($answer));
     }
 
+    public function deleteAction()
+    {
+        $id = get('id');
+
+        if ($this->model->delete_from_wishlist($id)) {
+            $answer = ['result' => 'success', 'text' => ___('tpl_wishlist_delete_success')];
+        } else {
+            $answer = ['result' => 'error', 'text' => ___('tpl_wishlist_delete_error')];
+        }
+        exit(json_encode($answer));
+    }
+
 }

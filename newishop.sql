@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Ноя 28 2021 г., 13:19
+-- Время создания: Дек 02 2021 г., 20:21
 -- Версия сервера: 10.1.44-MariaDB
 -- Версия PHP: 8.0.1
 
@@ -120,6 +120,56 @@ CREATE TABLE `name` (
 INSERT INTO `name` (`id`, `name`) VALUES
 (1, 'Иванов'),
 (2, 'Петров');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `page`
+--
+
+CREATE TABLE `page` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `slug` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `page`
+--
+
+INSERT INTO `page` (`id`, `slug`) VALUES
+(1, 'o-magazine'),
+(2, 'oplata-i-dostavka'),
+(3, 'kontakty'),
+(4, 'testovaya-stranica');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `page_description`
+--
+
+CREATE TABLE `page_description` (
+  `page_id` int(10) UNSIGNED NOT NULL,
+  `language_id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `content` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `keywords` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `page_description`
+--
+
+INSERT INTO `page_description` (`page_id`, `language_id`, `title`, `content`, `keywords`, `description`) VALUES
+(1, 1, 'О магазине', 'Контент страницы О магазине', NULL, NULL),
+(1, 2, 'About shop', 'Content of the About shop page', NULL, NULL),
+(2, 1, 'Оплата и доставка', 'Контент страницы Оплата и доставка', NULL, NULL),
+(2, 2, 'Payment and delivery', 'Content of the page Payment and delivery', NULL, NULL),
+(3, 1, 'Контакты', 'Контент страницы Контакты', NULL, NULL),
+(3, 2, 'Contact', 'Contact page content', NULL, NULL),
+(4, 1, 'Тестовая страница', '<p>Контент тестовой страницы…!!</p><figure class=\"image\"><img src=\"/public/uploads/images/fields.jpg\"></figure>', '2', '1'),
+(4, 2, 'Test page', '<p>Test page content…123</p>', '4', '3');
 
 -- --------------------------------------------------------
 
@@ -282,6 +332,19 @@ ALTER TABLE `name`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Индексы таблицы `page`
+--
+ALTER TABLE `page`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `slug` (`slug`(191));
+
+--
+-- Индексы таблицы `page_description`
+--
+ALTER TABLE `page_description`
+  ADD PRIMARY KEY (`page_id`,`language_id`);
+
+--
 -- Индексы таблицы `product`
 --
 ALTER TABLE `product`
@@ -327,6 +390,12 @@ ALTER TABLE `language`
 --
 ALTER TABLE `name`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT для таблицы `page`
+--
+ALTER TABLE `page`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT для таблицы `product`

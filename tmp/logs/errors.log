@@ -1302,3 +1302,7 @@
 =================
 [2021-12-02 13:29:42] Текст ошибки: Not found language wishlist | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\language\Language.php | Строка: 42
 =================
+[2021-12-02 20:27:00] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'page.id' in 'on clause' | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2021-12-02 20:27:00] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================

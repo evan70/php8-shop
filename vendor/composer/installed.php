@@ -28,5 +28,14 @@
             'reference' => '7d1ce93d6c6b8155a3912e4383a8b30db46e2db8',
             'dev_requirement' => false,
         ),
+        'vlucas/valitron' => array(
+            'pretty_version' => 'v1.4.10',
+            'version' => '1.4.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/valitron',
+            'aliases' => array(),
+            'reference' => '5ebd5d7af82cc0a9d798e816a2ecad63f1b59ceb',
+            'dev_requirement' => false,
+        ),
     ),
 );

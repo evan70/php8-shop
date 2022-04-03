@@ -17,7 +17,7 @@
 
                 <div class="col-md-6 offset-md-3">
                     <div class="form-floating mb-3">
-                        <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+                        <input type="text" name="email" class="form-control" id="email" placeholder="name@example.com">
                         <label class="required" for="email"><?php __('tpl_signup_email_input'); ?></label>
                     </div>
                 </div>

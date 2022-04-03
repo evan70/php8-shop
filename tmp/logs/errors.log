@@ -1310,3 +1310,5 @@
 =================
 [2021-12-04 13:02:25] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
+[2021-12-04 13:14:43] Текст ошибки: Rule 'lengtMin' has not been registered with Valitron\Validator::addRule(). | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1410
+=================

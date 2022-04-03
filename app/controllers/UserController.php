@@ -18,8 +18,12 @@ class UserController extends AppController
         if (!empty($_POST)) {
             $data = $_POST;
             $this->model->load($data);
-            debug($data);
-            debug($this->model->attributes);
+            if (!$this->model->validate($data)) {
+                $this->model->getErrors();
+            } else {
+                $_SESSION['success'] = ___('user_signup_success_register');
+            }
+            redirect();
         }
 
         $this->setMeta(___('tpl_signup'));

@@ -1312,3 +1312,9 @@
 =================
 [2021-12-04 13:14:43] Текст ошибки: Rule 'lengtMin' has not been registered with Valitron\Validator::addRule(). | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 1410
 =================
+[2021-12-05 12:01:18] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1@1.com' for key 'email' | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================
+[2021-12-05 12:01:18] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-05 12:06:00] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1@1.com' for key 'email' | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
+=================

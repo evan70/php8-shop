@@ -4,6 +4,7 @@
 namespace app\controllers;
 
 use app\models\User;
+use wfm\App;
 
 /** @property User $model */
 class UserController extends AppController
@@ -33,6 +34,33 @@ class UserController extends AppController
         }
 
         $this->setMeta(___('tpl_signup'));
+    }
+
+    public function loginAction()
+    {
+        if (User::checkAuth()) {
+            redirect(base_url());
+        }
+
+        if (!empty($_POST)) {
+            if ($this->model->login()) {
+                $_SESSION['success'] = ___('user_login_success_login');
+                redirect(base_url());
+            } else {
+                $_SESSION['errors'] = ___('user_login_error_login');
+                redirect();
+            }
+        }
+
+        $this->setMeta(___('tpl_login'));
+    }
+
+    public function logoutAction()
+    {
+        if (User::checkAuth()) {
+            unset($_SESSION['user']);
+        }
+        redirect(base_url() . 'user/login');
     }
 
 }

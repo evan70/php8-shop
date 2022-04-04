@@ -1318,3 +1318,7 @@
 =================
 [2021-12-05 12:06:00] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1@1.com' for key 'email' | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 206
 =================
+[2021-12-06 18:59:31] Текст ошибки: Метод app\controllers\CartController::viewAction не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+=================
+[2021-12-06 18:59:31] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================

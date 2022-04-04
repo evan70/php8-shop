@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Дек 04 2021 г., 13:04
+-- Время создания: Дек 06 2021 г., 19:16
 -- Версия сервера: 10.1.44-MariaDB
 -- Версия PHP: 8.0.1
 
@@ -84,6 +84,51 @@ INSERT INTO `category_description` (`category_id`, `language_id`, `title`, `desc
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `download`
+--
+
+CREATE TABLE `download` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `filename` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `original_name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `download`
+--
+
+INSERT INTO `download` (`id`, `filename`, `original_name`) VALUES
+(1, 'price.zip.RNv58WWAW1mF6ly3gTPiq4gHA00tQQ2B', 'price.zip'),
+(2, 'test.txt.fdkrwrcsflytryz23423cf', 'test.txt'),
+(5, '100.jpg615487b659028', '100.jpg');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `download_description`
+--
+
+CREATE TABLE `download_description` (
+  `download_id` int(10) UNSIGNED NOT NULL,
+  `language_id` int(10) UNSIGNED NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `download_description`
+--
+
+INSERT INTO `download_description` (`download_id`, `language_id`, `name`) VALUES
+(1, 1, 'Файл 1'),
+(1, 2, 'File 1'),
+(2, 1, 'Файл 2'),
+(2, 2, 'File 2'),
+(5, 1, 'Картинка'),
+(5, 2, 'Picture');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `language`
 --
 
@@ -120,6 +165,55 @@ CREATE TABLE `name` (
 INSERT INTO `name` (`id`, `name`) VALUES
 (1, 'Иванов'),
 (2, 'Петров');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(10) UNSIGNED DEFAULT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '0',
+  `note` text COLLATE utf8mb4_unicode_ci,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `total` double NOT NULL,
+  `qty` int(10) UNSIGNED DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `order_download`
+--
+
+CREATE TABLE `order_download` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `order_id` int(10) UNSIGNED NOT NULL,
+  `user_id` int(10) UNSIGNED NOT NULL,
+  `product_id` int(10) UNSIGNED NOT NULL,
+  `download_id` int(10) UNSIGNED NOT NULL,
+  `status` tinyint(3) UNSIGNED NOT NULL DEFAULT '0'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `order_product`
+--
+
+CREATE TABLE `order_product` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `order_id` int(10) UNSIGNED NOT NULL,
+  `product_id` int(10) UNSIGNED NOT NULL,
+  `title` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `slug` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `qty` int(10) UNSIGNED NOT NULL,
+  `price` double NOT NULL,
+  `sum` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -318,6 +412,16 @@ CREATE TABLE `user` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
+-- Дамп данных таблицы `user`
+--
+
+INSERT INTO `user` (`id`, `email`, `password`, `name`, `address`, `role`) VALUES
+(1, '1@1.com', '$2y$10$aNof9Lr0dRBmcHAC.7ogEOgln6iac/VTnW/tSYGsPMb1R7V9EbtiO', 'User 1', '111', 'user'),
+(4, '2@1.com', '$2y$10$gOXj2ueBe2F47GAlYSg1ker57uoOgQlcfFXlQ8NNSURfF12CDUHnW', 'User 2', '222', 'user'),
+(5, '3@1.com', '$2y$10$xRgcZOPV08itMtvR9310iuz4nS6XCTRssKjy7uPEMW8wmtuVv0FFO', 'User 3', '333', 'user'),
+(6, '4@1.com', '$2y$10$yloXFlWqud.LcIRb7mSgpOsAA.Q3jCu4za8XQh5MwgltlkuNeRFP2', 'User 4', '444', 'user');
+
+--
 -- Индексы сохранённых таблиц
 --
 
@@ -335,6 +439,18 @@ ALTER TABLE `category_description`
   ADD PRIMARY KEY (`category_id`,`language_id`);
 
 --
+-- Индексы таблицы `download`
+--
+ALTER TABLE `download`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `download_description`
+--
+ALTER TABLE `download_description`
+  ADD PRIMARY KEY (`download_id`,`language_id`);
+
+--
 -- Индексы таблицы `language`
 --
 ALTER TABLE `language`
@@ -344,6 +460,24 @@ ALTER TABLE `language`
 -- Индексы таблицы `name`
 --
 ALTER TABLE `name`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `order_download`
+--
+ALTER TABLE `order_download`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `order_product`
+--
+ALTER TABLE `order_product`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -402,6 +536,12 @@ ALTER TABLE `category`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
+-- AUTO_INCREMENT для таблицы `download`
+--
+ALTER TABLE `download`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT для таблицы `language`
 --
 ALTER TABLE `language`
@@ -412,6 +552,24 @@ ALTER TABLE `language`
 --
 ALTER TABLE `name`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT для таблицы `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `order_download`
+--
+ALTER TABLE `order_download`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT для таблицы `order_product`
+--
+ALTER TABLE `order_product`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT для таблицы `page`
@@ -441,7 +599,7 @@ ALTER TABLE `slider`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

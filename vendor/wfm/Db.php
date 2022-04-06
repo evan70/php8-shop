@@ -22,6 +22,9 @@ class Db
         if (DEBUG) {
             R::debug(true, 3);
         }
+        R::ext('xdispense', function( $type ){
+            return R::getRedBean()->dispense( $type );
+        });
     }
 
 }

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Дек 06 2021 г., 19:16
+-- Время создания: Дек 06 2021 г., 19:34
 -- Версия сервера: 10.1.44-MariaDB
 -- Версия PHP: 8.0.1
 
@@ -183,6 +183,13 @@ CREATE TABLE `orders` (
   `qty` int(10) UNSIGNED DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Дамп данных таблицы `orders`
+--
+
+INSERT INTO `orders` (`id`, `user_id`, `status`, `note`, `created_at`, `updated_at`, `total`, `qty`) VALUES
+(1, 6, 0, 'Тестовый заказ...', '2021-12-06 16:32:17', '2021-12-06 16:32:17', 60, 4);
+
 -- --------------------------------------------------------
 
 --
@@ -359,6 +366,25 @@ INSERT INTO `product_description` (`product_id`, `language_id`, `title`, `conten
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `product_download`
+--
+
+CREATE TABLE `product_download` (
+  `product_id` int(10) UNSIGNED NOT NULL,
+  `download_id` int(10) UNSIGNED NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Дамп данных таблицы `product_download`
+--
+
+INSERT INTO `product_download` (`product_id`, `download_id`) VALUES
+(5, 1),
+(6, 2);
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `product_gallery`
 --
 
@@ -507,6 +533,12 @@ ALTER TABLE `product_description`
   ADD PRIMARY KEY (`product_id`,`language_id`);
 
 --
+-- Индексы таблицы `product_download`
+--
+ALTER TABLE `product_download`
+  ADD PRIMARY KEY (`product_id`,`download_id`);
+
+--
 -- Индексы таблицы `product_gallery`
 --
 ALTER TABLE `product_gallery`
@@ -557,7 +589,7 @@ ALTER TABLE `name`
 -- AUTO_INCREMENT для таблицы `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT для таблицы `order_download`

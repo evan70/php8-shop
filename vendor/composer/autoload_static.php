@@ -23,6 +23,10 @@ class ComposerStaticInit93de82d9b5aef89c2aa9f22c8d74050d
         array (
             'RedBeanPHP\\' => 11,
         ),
+        'P' => 
+        array (
+            'PHPMailer\\PHPMailer\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -41,6 +45,10 @@ class ComposerStaticInit93de82d9b5aef89c2aa9f22c8d74050d
         'RedBeanPHP\\' => 
         array (
             0 => __DIR__ . '/..' . '/gabordemooij/redbean/RedBeanPHP',
+        ),
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
     );
 

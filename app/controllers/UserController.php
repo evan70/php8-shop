@@ -91,4 +91,20 @@ class UserController extends AppController
         $this->set(compact('orders', 'pagination', 'total'));
     }
 
+    public function orderAction()
+    {
+        if (!User::checkAuth()) {
+            redirect(base_url() . 'user/login');
+        }
+
+        $id = get('id');
+        $order = $this->model->get_user_order($id);
+        if (!$order) {
+            throw new \Exception('Not found order', 404);
+        }
+
+        $this->setMeta(___('user_order_title'));
+        $this->set(compact('order'));
+    }
+
 }

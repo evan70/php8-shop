@@ -37,7 +37,12 @@ $(function() {
 			type: 'GET',
 			data: {id: id},
 			success: function (res) {
-				showCart(res);
+				const url = window.location.toString();
+				if (url.indexOf('cart/view') !== -1) {
+					window.location = url;
+				} else {
+					showCart(res);
+				}
 			},
 			error: function () {
 				alert('Error!');

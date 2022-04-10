@@ -76,10 +76,11 @@ class CartController extends AppController
             // регистрация пользователя, если не авторизован
             if (!User::checkAuth()) {
                 $user = new User();
-                $user->load();
-                if (!$user->validate($user->attributes) || !$user->checkUnique()) {
+                $data = $_POST;
+                $user->load($data);
+                if (!$user->validate($data) || !$user->checkUnique()) {
                     $user->getErrors();
-                    $_SESSION['form_data'] = $user->attributes;
+                    $_SESSION['form_data'] = $data;
                     redirect();
                 } else {
                     $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);

@@ -22,7 +22,6 @@ class User extends AppModel
         'lengthMin' => [
             ['password', 6],
         ],
-        'optional' => ['email', 'password'],
     ];
 
     public array $labels = [
@@ -95,11 +94,6 @@ class User extends AppModel
     public function get_user_files($start, $perpage, $lang): array
     {
         return R::getAll("SELECT od.*, d.*, dd.* FROM order_download od JOIN download d on d.id = od.download_id JOIN download_description dd on d.id = dd.download_id WHERE od.user_id = ? AND od.status = 1 AND  dd.language_id = ? LIMIT $start, $perpage", [$_SESSION['user']['id'], $lang['id']]);
-    }
-
-    public function get_user_file($id, $lang): array
-    {
-        return R::getRow("SELECT od.*, d.*, dd.* FROM order_download od JOIN download d on d.id = od.download_id JOIN download_description dd on d.id = dd.download_id WHERE od.user_id = ? AND od.status = 1 AND od.download_id = ? AND dd.language_id = ?", [$_SESSION['user']['id'], $id, $lang['id']]);
     }
 
 }

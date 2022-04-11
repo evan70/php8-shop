@@ -10,14 +10,8 @@
         <section class="content-header">
             <div class="container-fluid">
                 <div class="row mb-2">
-                    <div class="col-sm-6">
-                        <h1>Blank Page</h1>
-                    </div>
-                    <div class="col-sm-6">
-                        <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item active">Blank Page</li>
-                        </ol>
+                    <div class="col-sm-12">
+                        <h1><?= $title ?? '' ?></h1>
                     </div>
                 </div>
             </div><!-- /.container-fluid -->
@@ -26,30 +20,21 @@
         <!-- Main content -->
         <section class="content">
 
-            <!-- Default box -->
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Title</h3>
+            <?php if (!empty($_SESSION['success'])): ?>
+                <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <?php echo $_SESSION['success']; unset($_SESSION['success']); ?>
+                </div>
+            <?php endif; ?>
 
-                    <div class="card-tools">
-                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                            <i class="fas fa-minus"></i>
-                        </button>
-                        <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                            <i class="fas fa-times"></i>
-                        </button>
-                    </div>
+            <?php if (!empty($_SESSION['errors'])): ?>
+                <div class="alert alert-danger alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <?php echo $_SESSION['errors']; unset($_SESSION['errors']); ?>
                 </div>
-                <div class="card-body">
-                    Start creating your amazing application!
-                </div>
-                <!-- /.card-body -->
-                <div class="card-footer">
-                    Footer
-                </div>
-                <!-- /.card-footer-->
-            </div>
-            <!-- /.card -->
+            <?php endif; ?>
+
+            <?php echo $this->content; ?>
 
         </section>
         <!-- /.content -->

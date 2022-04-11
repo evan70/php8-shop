@@ -8,7 +8,7 @@
 </footer>
 
 <div class="logs">
-    <?php //$this->getDbLogs(); ?>
+    <?php $this->getDbLogs(); ?>
 </div>
 
 <!-- Control Sidebar -->

@@ -49,6 +49,13 @@
                     </a>
                 </li>
 
+                <li class="nav-item">
+                    <a href="<?= ADMIN ?>/product" class="nav-link">
+                        <i class="nav-icon fas fa-barcode"></i>
+                        <p>Товары</p>
+                    </a>
+                </li>
+
             </ul>
         </nav>
         <!-- /.sidebar-menu -->

@@ -6,6 +6,7 @@ namespace app\controllers\admin;
 
 use app\models\admin\Category;
 use RedBeanPHP\R;
+use wfm\App;
 
 /** @property Category $model */
 class CategoryController extends AppController
@@ -55,6 +56,23 @@ class CategoryController extends AppController
         $title = 'Добавление категории';
         $this->setMeta("Админка :: {$title}");
         $this->set(compact('title'));
+    }
+
+    public function editAction()
+    {
+        $id = get('id');
+        if (!empty($_POST)) {
+
+        }
+        $category = $this->model->get_category($id);
+        if (!$category) {
+            throw new \Exception('Not found category', 404);
+        }
+        $lang = App::$app->getProperty('language')['id'];
+        App::$app->setProperty('parent_id', $category[$lang]['parent_id']);
+        $title = 'Редактирование категории';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'category'));
     }
 
 }

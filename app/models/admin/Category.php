@@ -6,6 +6,7 @@ namespace app\models\admin;
 
 use app\models\AppModel;
 use RedBeanPHP\R;
+use wfm\App;
 
 class Category extends AppModel
 {
@@ -29,12 +30,13 @@ class Category extends AppModel
 
     public function save_category(): bool
     {
+        $lang = App::$app->getProperty('language')['id'];
         R::begin();
         try {
             $category = R::dispense('category');
             $category->parent_id = post('parent_id', 'i');
             $category_id = R::store($category);
-            $category->slug = AppModel::create_slug('category', 'slug', $_POST['category_description'][1]['title'], $category_id);
+            $category->slug = AppModel::create_slug('category', 'slug', $_POST['category_description'][$lang]['title'], $category_id);
             R::store($category);
 
             foreach ($_POST['category_description'] as $lang_id => $item) {

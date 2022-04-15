@@ -10,6 +10,10 @@ a:hover {
     color: #000;
 }
 
+.ck-editor__editable {
+    min-height: 300px;
+}
+
 @media all and (min-width: 992px) {
     .logs {
         margin-left: 250px;

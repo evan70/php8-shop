@@ -32,9 +32,12 @@ class ProductController extends AppController
     {
         if (!empty($_POST)) {
             if ($this->model->product_validate()) {
-                $_SESSION['success'] = 'Товар добавлен';
+                if ($this->model->save_product()) {
+                    $_SESSION['success'] = 'Товар добавлен';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка добавления товара';
+                }
             }
-            debug($_POST,1);
             redirect();
         }
 

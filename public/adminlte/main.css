@@ -57,3 +57,13 @@ a:hover {
     top: 0;
     font-size: 30px;
 }
+
+.card-body td img {
+    max-height: 100px;
+}
+
+label.required::before {
+    content: '* ';
+    color: #F00;
+    font-weight: bold;
+}

@@ -51,7 +51,14 @@ class ProductController extends AppController
         $id = get('id');
 
         if (!empty($_POST)) {
-
+            if ($this->model->product_validate()) {
+                if ($this->model->update_product($id)) {
+                    $_SESSION['success'] = 'Товар сохранен';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка обновления товара';
+                }
+            }
+            redirect();
         }
 
         $product = $this->model->get_product($id);

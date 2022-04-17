@@ -89,7 +89,7 @@
                             <div id="base-img-output" class="upload-images base-image">
                                 <div class="product-img-upload">
                                     <img src="<?= $product[$key]['img'] ?>">
-                                    <input type="hidden" name="img" value="<?= $product[1]['img'] ?>">
+                                    <input type="hidden" name="img" value="<?= $product[$key]['img'] ?>">
                                     <?php if ($product[$key]['img'] != NO_IMAGE): ?>
                                         <button class="del-img btn btn-app bg-danger"><i class="far fa-trash-alt"></i>
                                         </button>

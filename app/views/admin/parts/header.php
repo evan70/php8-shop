@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="<?= PATH ?>/adminlte/plugins/fontawesome-free/css/all.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="<?= PATH ?>/adminlte/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="<?= PATH ?>/adminlte/plugins/select2/css/select2.min.css">
     <link rel="stylesheet" href="<?= PATH ?>/adminlte/main.css">
 
     <script src="<?= PATH ?>/adminlte/ckeditor/ckeditor.js"></script>

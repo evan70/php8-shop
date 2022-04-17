@@ -28,4 +28,43 @@ class ProductController extends AppController
         $this->set(compact('title', 'products', 'pagination', 'total'));
     }
 
+    public function addAction()
+    {
+        if (!empty($_POST)) {
+
+        }
+
+        $title = 'Новый товар';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title'));
+    }
+
+    public function getDownloadAction()
+    {
+        /*$data = [
+            'items' => [
+                [
+                    'id' => 1,
+                    'text' => 'Файл 1',
+                ],
+                [
+                    'id' => 2,
+                    'text' => 'Файл 2',
+                ],
+                [
+                    'id' => 3,
+                    'text' => 'File 1',
+                ],
+                [
+                    'id' => 4,
+                    'text' => 'File 2',
+                ],
+            ]
+        ];*/
+        $q = get('q', 's');
+        $downloads = $this->model->get_downloads($q);
+        echo json_encode($downloads);
+        die;
+    }
+
 }

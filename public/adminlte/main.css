@@ -2,6 +2,11 @@ body {
     min-width: 320px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
     color: #ee6e73;
 }
@@ -18,4 +23,37 @@ a:hover {
     .logs {
         margin-left: 250px;
     }
+}
+
+.select2-container .select2-selection--single {
+    height: 38px !important;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+
+.upload-images {
+    padding: 10px 0;
+}
+
+.upload-images img {
+    border: 2px solid #ccc;
+    padding: 3px;
+}
+
+.product-img-upload {
+    position: relative;
+}
+
+.gallery-image .product-img-upload {
+    max-width: 250px;
+    margin: 0 10px 10px 0;
+    display: inline-block;
+}
+
+.del-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 30px;
 }

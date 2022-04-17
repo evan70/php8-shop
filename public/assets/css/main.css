@@ -29,6 +29,12 @@ body {
 	max-width: 50%;
 }
 
+.category-desc::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 label.required::before {
 	content: "* ";
 	color: #f00;

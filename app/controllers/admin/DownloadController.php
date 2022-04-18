@@ -49,4 +49,23 @@ class DownloadController extends AppController
         $this->set(compact('title'));
     }
 
+    public function deleteAction()
+    {
+        $id = get('id');
+        if (R::count('order_download', 'download_id = ?', [$id])) {
+            $_SESSION['errors'] = 'Невозможно удалить - данный файл уже приобретался';
+            redirect();
+        }
+        if (R::count('product_download', 'download_id = ?', [$id])) {
+            $_SESSION['errors'] = 'Невозможно удалить - данный файл прикреплен к товару';
+            redirect();
+        }
+        if ($this->model->download_delete($id)) {
+            $_SESSION['success'] = 'Файл удален';
+        } else {
+            $_SESSION['errors'] = 'Ошибка удаления файла';
+        }
+        redirect();
+    }
+
 }

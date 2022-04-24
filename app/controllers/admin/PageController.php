@@ -57,4 +57,28 @@ class PageController extends AppController
         $this->set(compact('title'));
     }
 
+    public function editAction()
+    {
+        $id = get('id');
+
+        if (!empty($_POST)) {
+            if ($this->model->page_validate()) {
+                if ($this->model->update_page($id)) {
+                    $_SESSION['success'] = 'Страница сохранена';
+                } else {
+                    $_SESSION['errors'] = 'Ошибка обновления страницы';
+                }
+            }
+            redirect();
+        }
+
+        $page = $this->model->get_page($id);
+        if (!$page) {
+            throw new \Exception('Not found page', 404);
+        }
+        $title = 'Редактирование страницы';
+        $this->setMeta("Админка :: {$title}");
+        $this->set(compact('title', 'page'));
+    }
+
 }

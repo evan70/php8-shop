@@ -114,3 +114,101 @@
 =================
 [2021-12-11 14:57:57] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
 =================
+[2021-12-12 12:50:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-12 12:50:21] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-12 12:50:33] Текст ошибки: Контроллер app\controllers\admin\LoginAdminController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-12 13:18:28] Текст ошибки: Контроллер app\controllers\admin\OrdersController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-14 12:49:37] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-14 13:02:55] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 79
+=================
+[2021-12-14 13:03:16] Текст ошибки: foreach() argument must be of type array|object, null given | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 79
+=================
+[2021-12-14 13:36:03] Текст ошибки: require(D:\Server538\OpenServer\domains\new-ishop.loc/app/widgets/menu/admin_select_tpl.php): Failed to open stream: No such file or directory | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\widgets\menu\Menu.php | Строка: 99
+=================
+[2021-12-14 14:22:47] Текст ошибки: Class "R" not found | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Category.php | Строка: 32
+=================
+[2021-12-14 15:55:30] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-15 14:15:08] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 11:39:03] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 11:59:19] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:26:49] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:27:32] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:27:42] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:28:52] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:28:58] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:30:35] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:30:48] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:30:53] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:31:43] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-16 12:32:06] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 14:18:43] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 14:34:57] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:03] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:05] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:08] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:09] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:20] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:35:47] Текст ошибки: syntax error, unexpected token "}" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 108
+=================
+[2021-12-17 14:40:00] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 14:40:13] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 14:40:19] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 19:14:48] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-17 19:57:07] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-18 11:21:15] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-18 12:08:53] Текст ошибки: app\models\admin\Download::save_download(): Return value must be of type bool, none returned | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Download.php | Строка: 81
+=================
+[2021-12-18 12:12:28] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-18 12:19:43] Текст ошибки: Контроллер app\controllers\admin\OrderController не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 62
+=================
+[2021-12-18 12:36:34] Текст ошибки: Undefined array key "download_id" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 194
+=================
+[2021-12-18 12:37:54] Текст ошибки: Undefined array key "download_id" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 194
+=================
+[2021-12-18 12:38:22] Текст ошибки: Undefined array key "download_id" | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\models\admin\Product.php | Строка: 194
+=================
+[2021-12-21 16:09:54] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-22 11:58:58] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-22 12:16:21] Текст ошибки: Not founud user | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\app\controllers\admin\UserController.php | Строка: 33
+=================
+[2021-12-24 13:20:29] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-25 13:56:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================
+[2021-12-25 14:12:45] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+=================

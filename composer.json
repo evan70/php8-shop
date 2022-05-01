@@ -6,8 +6,8 @@
     }
   },
   "require": {
-    "gabordemooij/redbean": "^v5.7.1",
+    "gabordemooij/redbean": "^v5.7",
     "vlucas/valitron": "^1.4",
-    "phpmailer/phpmailer": "^6.5"
+    "phpmailer/phpmailer": "^6.6"
   }
 }

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "97d0be6035c64f22c2eeefea23c874d3",
+    "content-hash": "5a8270bfe6a49244fba5e6fb68c459a0",
     "packages": [
         {
             "name": "gabordemooij/redbean",
-            "version": "v5.7.1",
+            "version": "v5.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/gabordemooij/redbean.git",
-                "reference": "7d1ce93d6c6b8155a3912e4383a8b30db46e2db8"
+                "reference": "2c8ce8a57ed61fce34da1dabbf0f879d76e1ed26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/7d1ce93d6c6b8155a3912e4383a8b30db46e2db8",
-                "reference": "7d1ce93d6c6b8155a3912e4383a8b30db46e2db8",
+                "url": "https://api.github.com/repos/gabordemooij/redbean/zipball/2c8ce8a57ed61fce34da1dabbf0f879d76e1ed26",
+                "reference": "2c8ce8a57ed61fce34da1dabbf0f879d76e1ed26",
                 "shasum": ""
             },
             "require": {
@@ -47,22 +47,22 @@
             ],
             "support": {
                 "issues": "https://github.com/gabordemooij/redbean/issues",
-                "source": "https://github.com/gabordemooij/redbean/tree/v5.7.1"
+                "source": "https://github.com/gabordemooij/redbean/tree/v5.7.2"
             },
-            "time": "2021-10-30T07:55:45+00:00"
+            "time": "2022-04-02T18:01:03+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.5.3",
+            "version": "v6.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71"
+                "reference": "e43bac82edc26ca04b36143a48bde1c051cfd5b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/baeb7cde6b60b1286912690ab0693c7789a31e71",
-                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/e43bac82edc26ca04b36143a48bde1c051cfd5b1",
+                "reference": "e43bac82edc26ca04b36143a48bde1c051cfd5b1",
                 "shasum": ""
             },
             "require": {
@@ -75,10 +75,10 @@
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
                 "doctrine/annotations": "^1.2",
                 "php-parallel-lint/php-console-highlighter": "^0.5.0",
-                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "php-parallel-lint/php-parallel-lint": "^1.3.1",
                 "phpcompatibility/php-compatibility": "^9.3.5",
                 "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.6.0",
+                "squizlabs/php_codesniffer": "^3.6.2",
                 "yoast/phpunit-polyfills": "^1.0.0"
             },
             "suggest": {
@@ -119,7 +119,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.3"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.6.0"
             },
             "funding": [
                 {
@@ -127,7 +127,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-11-25T16:34:11+00:00"
+            "time": "2022-02-28T15:31:21+00:00"
         },
         {
             "name": "vlucas/valitron",
@@ -197,5 +197,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

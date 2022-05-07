@@ -43,10 +43,10 @@ class Page extends AppModel
             $item['title'] = trim($item['title']);
             $item['content'] = trim($item['content']);
             if (empty($item['title'])) {
-                $errors .= "Ne vyplnený povinný vstup. údaj - názov {$lang_id}<br>";
+                $errors .= "Nevyplnený povinný vstup. údaj - názov {$lang_id}<br>";
             }
             if (empty($item['content'])) {
-                $errors .= "Ne vyplnený povinný vstup. údaj - obsah {$lang_id}<br>";
+                $errors .= "Nevyplnený povinný vstup. údaj - obsah {$lang_id}<br>";
             }
         }
 

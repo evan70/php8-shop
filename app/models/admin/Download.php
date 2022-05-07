@@ -26,13 +26,13 @@ class Download extends AppModel
         }
 
         if (empty($_FILES) || $_FILES['file']['error']) {
-            $errors .= "Ошибка загрузки файла<br>";
+            $errors .= "Chyba nahrania súboru<br>";
         } else {
             $extensions = ['jpg', 'jpeg', 'png', 'zip', 'pdf', 'txt'];
             $parts = explode('.', $_FILES['file']['name']);
             $ext = end($parts);
             if (!in_array($ext, $extensions)) {
-                $errors .= "Допустимые для загрузки расширения: jpg, jpeg, png, zip, pdf, txt<br>";
+                $errors .= "Nahrať je možné len súbory typov: jpg, jpeg, png, zip, pdf, txt<br>";
             }
         }
 

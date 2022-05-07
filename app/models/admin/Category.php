@@ -17,7 +17,7 @@ class Category extends AppModel
         foreach ($_POST['category_description'] as $lang_id => $item) {
             $item['title'] = trim($item['title']);
             if (empty($item['title'])) {
-                $errors .= "Ne vyplnený povinný vstup. údaj {$lang_id}<br>";
+                $errors .= "Ne vyplnený povinný vstup. údaj - názov {$lang_id}<br>";
             }
         }
         if ($errors) {

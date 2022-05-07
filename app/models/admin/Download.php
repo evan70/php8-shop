@@ -21,7 +21,7 @@ class Download extends AppModel
         foreach ($_POST['download_description'] as $lang_id => $item) {
             $item['name'] = trim($item['name']);
             if (empty($item['name'])) {
-                $errors .= "Не заполнено наименование {$lang_id}<br>";
+                $errors .= "Nevyplnený povinný vstup. údaj - meno {$lang_id}<br>";
             }
         }
 

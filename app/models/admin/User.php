@@ -54,7 +54,7 @@ class User extends \app\models\User
         }
         $user = R::findOne('user', 'email = ?', [$this->attributes['email']]);
         if ($user) {
-            $this->errors['unique'][] = 'Этот email уже используется другим пользователем';
+            $this->errors['unique'][] = 'Email už registroval iný používaťeľ';
             return false;
         }
         return true;

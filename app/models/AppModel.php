@@ -25,13 +25,13 @@ class AppModel extends Model
 
     public static function str2url($str): string
     {
-        // переводим в транслит
+        // prevod na translit
         $str = self::rus2translit($str);
-        // в нижний регистр
+        // prevod na malé znaky
         $str = strtolower($str);
-        // заменям все ненужное нам на "-"
+        // všetko nepotrebné zmeniť na "-"
         $str = preg_replace('~[^-a-z0-9]+~u', '-', $str);
-        // удаляем начальные и конечные '-'
+        // zmažeme začiatok a koniec '-'
         $str = trim($str, "-");
         return $str;
     }

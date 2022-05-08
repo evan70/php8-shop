@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models;
-
 
 use PHPMailer\PHPMailer\PHPMailer;
 use RedBeanPHP\R;
@@ -10,7 +8,6 @@ use wfm\App;
 
 class Order extends AppModel
 {
-
     public static function saveOrder($data): int|false
     {
         R::begin();

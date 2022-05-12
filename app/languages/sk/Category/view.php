@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'category_view_no_products' => 'В этой категории товаров пока нет...',
+    'category_view_no_products' => 'Kategória neobsahuje žiadne produkty',
     'category_view_home_breadcrumbs' => '<i class="fas fa-home"></i>',
     'category_view_total_pagination' => 'товара(ов) из',
     'category_view_sort' => 'Сортировка',

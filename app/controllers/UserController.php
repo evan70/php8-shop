@@ -1,6 +1,5 @@
 <?php
 
-
 namespace app\controllers;
 
 use app\models\User;
@@ -189,5 +188,4 @@ class UserController extends AppController
         }
         redirect();
     }
-
 }

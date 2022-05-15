@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Page;
 use wfm\App;

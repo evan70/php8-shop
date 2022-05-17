@@ -102,3 +102,31 @@
 =================
 [2022-05-01 22:36:57] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
 =================
+[2022-05-16 22:51:49] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-05-16 22:51:49] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-16 22:53:10] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-05-16 23:09:28] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-05-16 23:09:31] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-05-16 23:09:32] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
+=================
+[2022-05-16 23:11:14] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:11:30] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:11:48] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:12:08] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:13:04] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:13:16] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
+=================
+[2022-05-16 23:15:34] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-16 23:21:19] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================

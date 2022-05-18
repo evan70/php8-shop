@@ -130,3 +130,23 @@
 =================
 [2022-05-16 23:21:19] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
 =================
+[2022-05-17 22:43:42] Текст ошибки: Метод app\controllers\UserController::adminLoginAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================
+[2022-05-17 22:43:43] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-17 22:43:52] Текст ошибки: Метод app\controllers\UserController::adminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================
+[2022-05-17 22:45:05] Текст ошибки: Метод app\controllers\UserController::loginAdminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================
+[2022-05-17 22:45:33] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-17 22:46:26] Текст ошибки: Not found language login | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-17 22:46:40] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-17 22:46:41] Текст ошибки: Метод app\controllers\UserController::loginAdminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================
+[2022-05-17 22:46:42] Текст ошибки: Метод app\controllers\UserController::adminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================
+[2022-05-17 22:46:42] Текст ошибки: Метод app\controllers\UserController::adminLoginAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
+=================

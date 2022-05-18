@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Slider;
 
@@ -14,12 +12,12 @@ class SliderController extends AppController
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $this->model->update_slider();
-            $_SESSION['success'] = 'Слайдер обновлен';
+            $_SESSION['success'] = 'Slider upravený';
             redirect();
         }
         $gallery = $this->model->get_slides();
-        $title = 'Управление слайдером';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Úprava slajdov';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'gallery'));
     }
 

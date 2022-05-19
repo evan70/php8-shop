@@ -150,3 +150,51 @@
 =================
 [2022-05-17 22:46:42] Текст ошибки: Метод app\controllers\UserController::adminLoginAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
 =================
+[2022-05-19 00:12:56] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-19 00:15:32] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/edit.php | Строка: 45
+=================
+[2022-05-19 00:21:44] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
+=================
+[2022-05-19 00:26:25] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
+=================
+[2022-05-19 00:26:27] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
+=================
+[2022-05-19 00:36:47] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
+=================
+[2022-05-19 00:37:34] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================
+[2022-05-19 22:30:38] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
+=================
+[2022-05-19 22:30:38] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================

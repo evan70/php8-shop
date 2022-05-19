@@ -1,11 +1,11 @@
-a:2:{s:4:"data";s:927:"<li class="nav-item ">
-    <a class="nav-link " href="category/kompyutery" >Computers</a>
+a:2:{s:4:"data";s:970:"<li class="nav-item ">
+    <a class="nav-link " href="category/kompyutery" >Компьjútery</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/planshety" >Tablets</a>
+    <a class="nav-link " href="category/planshety" >Планшеты</a>
     </li>
 <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="category/noutbuki" data-bs-toggle="dropdown">Notebooks</a>
+    <a class="nav-link dropdown-toggle" href="category/noutbuki" data-bs-toggle="dropdown">Ноутбуки</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li class="nav-item ">
     <a class="nav-link " href="category/mac" >Mac</a>
@@ -16,12 +16,12 @@ a:2:{s:4:"data";s:927:"<li class="nav-item ">
         </ul>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/telefony" >Phones</a>
+    <a class="nav-link " href="category/telefony" >Телефоны</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/kamery" >Cameras</a>
+    <a class="nav-link " href="category/kamery" >Камеры</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/test" >Test</a>
+    <a class="nav-link " href="category/test" >Тест</a>
     </li>
-";s:8:"end_time";i:1652820771;}
+";s:8:"end_time";i:1652992163;}

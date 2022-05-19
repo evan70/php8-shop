@@ -1,6 +1,5 @@
 <?php
 
-
 namespace app\controllers\admin;
 
 use app\models\admin\User;
@@ -20,8 +19,8 @@ class UserController extends AppController
         $start = $pagination->getStart();
 
         $users = $this->model->get_users($start, $perpage);
-        $title = 'Список пользователей';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Zoznam užívaťeľov';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'users', 'pagination', 'total'));
     }
 
@@ -40,8 +39,8 @@ class UserController extends AppController
         $start = $pagination->getStart();
 
         $orders = $this->model->get_user_orders($start, $perpage, $id);
-        $title = 'Профиль пользователя';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Profil užívaťeľa';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'user', 'pagination', 'total', 'orders'));
     }
 

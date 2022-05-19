@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Page;
 use RedBeanPHP\R;
@@ -23,8 +21,8 @@ class PageController extends AppController
         $start = $pagination->getStart();
 
         $pages = $this->model->get_pages($lang, $start, $perpage);
-        $title = 'Список страниц';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Zoznam stránok';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'pages', 'pagination', 'total'));
     }
 
@@ -32,9 +30,9 @@ class PageController extends AppController
     {
         $id = get('id');
         if ($this->model->deletePage($id)) {
-            $_SESSION['success'] = 'Страница удалена';
+            $_SESSION['success'] = 'Stránka zmazaná';
         } else {
-            $_SESSION['errors'] = 'Ошибка удаления страницы';
+            $_SESSION['errors'] = 'Chyba zmazania stránky';
         }
         redirect();
     }
@@ -44,16 +42,16 @@ class PageController extends AppController
         if (!empty($_POST)) {
             if ($this->model->page_validate()) {
                 if ($this->model->save_page()) {
-                    $_SESSION['success'] = 'Страница добавлена';
+                    $_SESSION['success'] = 'Stránka pridaná';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка добавления страницы';
+                    $_SESSION['errors'] = 'Chyba pridania stránky';
                 }
             }
             redirect();
         }
 
-        $title = 'Новая страница';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Nová stránka';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -64,9 +62,9 @@ class PageController extends AppController
         if (!empty($_POST)) {
             if ($this->model->page_validate()) {
                 if ($this->model->update_page($id)) {
-                    $_SESSION['success'] = 'Страница сохранена';
+                    $_SESSION['success'] = 'Stránka upravená';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка обновления страницы';
+                    $_SESSION['errors'] = 'Chyba úpravy stránky';
                 }
             }
             redirect();
@@ -76,8 +74,8 @@ class PageController extends AppController
         if (!$page) {
             throw new \Exception('Not found page', 404);
         }
-        $title = 'Редактирование страницы';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Úprava stránky';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'page'));
     }
 

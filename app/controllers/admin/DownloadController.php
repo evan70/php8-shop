@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Download;
 use RedBeanPHP\R;
@@ -23,8 +21,8 @@ class DownloadController extends AppController
         $start = $pagination->getStart();
 
         $downloads = $this->model->get_downloads($lang, $start, $perpage);
-        $title = 'Файлы (цифровые товары)';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Súbory (digitálny produkt)';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'downloads', 'pagination', 'total'));
     }
 
@@ -34,18 +32,18 @@ class DownloadController extends AppController
             if ($this->model->download_validate()) {
                 if ($data = $this->model->upload_file()) {
                     if ($this->model->save_download($data)) {
-                        $_SESSION['success'] = 'Файл добавлен';
+                        $_SESSION['success'] = 'Súbor uložený';
                     } else {
-                        $_SESSION['errors'] = 'Ошибка добавления файла';
+                        $_SESSION['errors'] = 'Chyba uloženia súboru';
                     }
                 } else {
-                    $_SESSION['errors'] = 'Ошибка перемещения файла';
+                    $_SESSION['errors'] = 'Chyba premenovania súboru';
                 }
             }
             redirect();
         }
-        $title = 'Добавление файла (цифрового товара)';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Pridať súbor (digitálny produkt)';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -53,17 +51,17 @@ class DownloadController extends AppController
     {
         $id = get('id');
         if (R::count('order_download', 'download_id = ?', [$id])) {
-            $_SESSION['errors'] = 'Невозможно удалить - данный файл уже приобретался';
+            $_SESSION['errors'] = 'Nie je možné vymazať súbor - súbor je už objednaný';
             redirect();
         }
         if (R::count('product_download', 'download_id = ?', [$id])) {
-            $_SESSION['errors'] = 'Невозможно удалить - данный файл прикреплен к товару';
+            $_SESSION['errors'] = 'Nie je možné vymazať súbor - súbor je pridelený k produktu';
             redirect();
         }
         if ($this->model->download_delete($id)) {
-            $_SESSION['success'] = 'Файл удален';
+            $_SESSION['success'] = 'Súbor vymazaný';
         } else {
-            $_SESSION['errors'] = 'Ошибка удаления файла';
+            $_SESSION['errors'] = 'Chyba vymazania súboru';
         }
         redirect();
     }

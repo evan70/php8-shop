@@ -198,3 +198,27 @@
 =================
 [2022-05-19 22:30:38] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
 =================
+[2022-05-21 22:00:57] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 22:00:57] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-21 23:07:17] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 23:11:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 23:11:42] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 23:13:14] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 23:13:55] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
+=================
+[2022-05-21 23:14:04] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
+=================
+[2022-05-21 23:15:09] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-21 23:15:22] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
+=================
+[2022-05-21 23:34:51] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
+=================
+[2022-05-21 23:34:52] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
+=================

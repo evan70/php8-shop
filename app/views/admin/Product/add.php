@@ -25,13 +25,13 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label class="required" for="price">Цена</label>
-                        <input type="text" name="price" class="form-control" id="price" placeholder="Цена" value="<?= get_field_value('price') ?: 0 ?>">
+                        <input type="text" name="price" class="form-control" id="price" placeholder="Цена" value="<?= get_field_array_value('price') ?: 0 ?>">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="old_price">Старая цена</label>
-                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Старая цена" value="<?= get_field_value('old_price') ?: 0 ?>">
+                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Старая цена" value="<?= get_field_array_value('old_price') ?: 0 ?>">
                     </div>
                 </div>
             </div>

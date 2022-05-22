@@ -7,8 +7,8 @@
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th>Наименование</th>
-                <th>Описание</th>
+                <th>Názov</th>
+                <th>Popis</th>
                 <td width="50"><i class="far fa-trash-alt"></i></td>
             </tr>
             </thead>
@@ -18,7 +18,7 @@
                     Cache kategóriǐ
                 </td>
                 <td>
-                    Меню категорий на сайте. Кэшируется на 1 час.
+                    Menu kategórií. Kešuje sa na 1 hodinu.
                 </td>
                 <td width="50">
                     <a class="btn btn-danger btn-sm delete"

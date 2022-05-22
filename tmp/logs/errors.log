@@ -222,3 +222,43 @@
 =================
 [2022-05-21 23:34:52] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
 =================
+[2022-05-22 12:13:17] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-22 12:14:21] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:21:25] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:24:39] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:24:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:24:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:24:42] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
+=================
+[2022-05-22 12:43:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
+=================
+[2022-05-22 12:45:03] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
+=================
+[2022-05-22 12:46:18] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 50
+=================
+[2022-05-22 12:46:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 50
+=================
+[2022-05-22 12:48:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
+=================
+[2022-05-22 13:01:38] Текст ошибки: Call to undefined function get_field_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 28
+=================
+[2022-05-22 13:01:50] Текст ошибки: Call to undefined function get_field_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 28
+=================
+[2022-05-22 13:04:54] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-22 13:05:35] Текст ошибки: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
+=================
+[2022-05-22 14:24:02] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-22 14:26:56] Текст ошибки: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
+=================
+[2022-05-22 14:27:51] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+=================
+[2022-05-22 22:40:19] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+=================

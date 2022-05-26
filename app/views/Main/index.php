@@ -56,27 +56,27 @@ use wfm\View;
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h3 class="section-title">Наши преимущества</h3>
+                <h3 class="section-title">Naše prednosti</h3>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-shipping-fast"></i></p>
-                    <p>Прямые поставки от производителей</p>
+                    <p>Reakcie našich uživateľov</p>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-cubes"></i></p>
-                    <p>Широкий ассортимент товара</p>
+                    <p>Široký sortiment tovaru</p>
                 </div>
             </div>
 
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-hand-holding-usd"></i></p>
-                    <p>Приятные и конкуретные цены</p>
+                    <p>Výborné konkurentné ceny</p>
                 </div>
             </div>
 

@@ -13,10 +13,8 @@
         </ol>
     </nav>
 </div>
-
 <div class="container py-3">
     <div class="row">
-
         <div class="col-lg-12 category-content">
             <h3 class="section-title"><?= $category['title'] ?></h3>
 

@@ -83,7 +83,7 @@ use wfm\View;
             <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                     <p class="text-center"><i class="fas fa-user-cog"></i></p>
-                    <p>Профессиональная консультация и сервис</p>
+                    <p>Profesionálne konzultácie a služby</p>
                 </div>
             </div>
 

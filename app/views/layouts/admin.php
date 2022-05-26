@@ -18,6 +18,7 @@
         </section>
 
         <!-- Main content -->
+        
         <section class="content">
 
             <?php if (!empty($_SESSION['success'])): ?>

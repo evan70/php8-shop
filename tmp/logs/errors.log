@@ -1,264 +1,28 @@
-[2021-12-09 19:42:40] Текст ошибки: Метод app\controllers\UserController::downloadAction не найден | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 59
+[2022-05-28 11:46:13] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2021-12-09 19:42:40] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2022-05-28 12:34:33] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2021-12-10 12:24:00] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2022-05-28 12:34:40] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2021-12-10 19:31:29] Текст ошибки: Страница не найдена | Файл: D:\Server538\OpenServer\domains\new-ishop.loc\vendor\wfm\Router.php | Строка: 66
+[2022-05-28 12:39:45] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2022-05-01 21:00:14] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
+[2022-05-28 12:44:58] Текст ошибки: Undefined array key "user" | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 17
 =================
-[2022-05-01 21:31:46] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 12:46:08] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2022-05-01 21:31:46] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:23:52] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2022-05-01 21:32:04] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:24:51] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
 =================
-[2022-05-01 21:39:26] Текст ошибки: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
+[2022-05-28 13:25:09] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
 =================
-[2022-05-01 21:41:19] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:26:24] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
 =================
-[2022-05-01 21:41:19] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:26:25] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
 =================
-[2022-05-01 21:52:46] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:26:27] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
 =================
-[2022-05-01 21:52:46] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
+[2022-05-28 13:26:48] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================
-[2022-05-01 21:53:03] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 869
-=================
-[2022-05-01 21:53:11] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/QueryWriter/AQueryWriter.php | Строка: 869
-=================
-[2022-05-01 21:54:30] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:30] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:30] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:30] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:48] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:48] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:50] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:52] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:55] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:54:55] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:04] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:04] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:04] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:04] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:10] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:10] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:10] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:10] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:14] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:14] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:16] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:18] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:20] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:20] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:39] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:39] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:47] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:56:55] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-01 21:59:04] Текст ошибки: Not found language fr | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-01 22:04:29] Текст ошибки: Метод app\controllers\CategoryController::windowsAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-01 22:08:12] Текст ошибки: Метод app\controllers\CategoryController::windowsAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-01 22:09:46] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1282
-=================
-[2022-05-01 22:11:22] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
-=================
-[2022-05-01 22:11:29] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
-=================
-[2022-05-01 22:36:41] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
-=================
-[2022-05-01 22:36:46] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
-=================
-[2022-05-01 22:36:57] Текст ошибки: trim(): Passing null to parameter #1 ($string) of type string is deprecated | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/phpmailer/phpmailer/src/PHPMailer.php | Строка: 1283
-=================
-[2022-05-16 22:51:49] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
-=================
-[2022-05-16 22:51:49] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-16 22:53:10] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
-=================
-[2022-05-16 23:09:28] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
-=================
-[2022-05-16 23:09:31] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
-=================
-[2022-05-16 23:09:32] Текст ошибки: No connection to DB | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Db.php | Строка: 19
-=================
-[2022-05-16 23:11:14] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:11:30] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:11:48] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:12:08] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:13:04] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:13:16] Текст ошибки: unlink(/home/evan/www/docksal/nodb8/docroot/tmp/cache/f95c605ee46f2eb0adab36530ffa46d6.txt): Permission denied | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Cache.php | Строка: 31
-=================
-[2022-05-16 23:15:34] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-16 23:21:19] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-17 22:43:42] Текст ошибки: Метод app\controllers\UserController::adminLoginAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-17 22:43:43] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-17 22:43:52] Текст ошибки: Метод app\controllers\UserController::adminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-17 22:45:05] Текст ошибки: Метод app\controllers\UserController::loginAdminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-17 22:45:33] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-17 22:46:26] Текст ошибки: Not found language login | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-17 22:46:40] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-17 22:46:41] Текст ошибки: Метод app\controllers\UserController::loginAdminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-17 22:46:42] Текст ошибки: Метод app\controllers\UserController::adminAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-17 22:46:42] Текст ошибки: Метод app\controllers\UserController::adminLoginAction не найден | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 59
-=================
-[2022-05-19 00:12:56] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-19 00:15:32] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/edit.php | Строка: 45
-=================
-[2022-05-19 00:21:44] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
-=================
-[2022-05-19 00:26:25] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
-=================
-[2022-05-19 00:26:27] Текст ошибки: Undefined array key 3 | Файл: /home/evan/www/docksal/nodb8/docroot/app/controllers/admin/CategoryController.php | Строка: 77
-=================
-[2022-05-19 00:36:47] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
-=================
-[2022-05-19 00:37:34] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:00:25] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:01:08] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:07:23] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 09:46:10] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 11:05:37] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
-=================
-[2022-05-19 22:30:38] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
-=================
-[2022-05-19 22:30:38] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-21 22:00:57] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 22:00:57] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-21 23:07:17] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 23:11:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 23:11:42] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 23:13:14] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 23:13:55] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 113
-=================
-[2022-05-21 23:14:04] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
-=================
-[2022-05-21 23:15:09] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-21 23:15:22] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
-=================
-[2022-05-21 23:34:51] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
-=================
-[2022-05-21 23:34:52] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Page/add.php | Строка: 28
-=================
-[2022-05-22 12:13:17] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-22 12:14:21] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:21:25] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:24:39] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:24:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:24:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:24:42] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 118
-=================
-[2022-05-22 12:43:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
-=================
-[2022-05-22 12:45:03] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
-=================
-[2022-05-22 12:46:18] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 50
-=================
-[2022-05-22 12:46:41] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 50
-=================
-[2022-05-22 12:48:40] Текст ошибки: Call to undefined function get_field_array_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Category/add.php | Строка: 45
-=================
-[2022-05-22 13:01:38] Текст ошибки: Call to undefined function get_field_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 28
-=================
-[2022-05-22 13:01:50] Текст ошибки: Call to undefined function get_field_value() | Файл: /home/evan/www/docksal/nodb8/docroot/app/views/admin/Product/add.php | Строка: 28
-=================
-[2022-05-22 13:04:54] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-22 13:05:35] Текст ошибки: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
-=================
-[2022-05-22 14:24:02] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-22 14:26:56] Текст ошибки: htmlspecialchars(): Argument #1 ($string) must be of type string, array given | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/helpers/functions.php | Строка: 13
-=================
-[2022-05-22 14:27:51] Текст ошибки: Страница не найдена | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/wfm/Router.php | Строка: 66
-=================
-[2022-05-22 22:40:19] Текст ошибки: Not found language passthrough | Файл: /home/evan/www/docksal/nodb8/docroot/app/widgets/language/Language.php | Строка: 42
+[2022-05-28 13:31:54] Текст ошибки: SQLSTATE[HY000]: General error: 1 no such table: language | Файл: /home/evan/www/docksal/nodb8/docroot/vendor/gabordemooij/redbean/RedBeanPHP/Driver/RPDO.php | Строка: 206
 =================

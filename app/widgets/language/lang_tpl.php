@@ -1,7 +1,9 @@
 <div class="dropdown d-inline-block">
+
     <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown">
         <img src="<?= PATH ?>/assets/img/lang/<?= \wfm\App::$app->getProperty('language')['code'] ?>.png" alt="">
     </a>
+
     <ul class="dropdown-menu" id="languages">
         <?php foreach ($this->languages as $k => $v): ?>
             <?php if (\wfm\App::$app->getProperty('language')['code'] == $k) continue; ?>
@@ -13,4 +15,5 @@
             </li>
         <?php endforeach; ?>
     </ul>
+
 </div>

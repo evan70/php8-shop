@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers;
+
 
 use app\models\Cart;
 use wfm\App;
@@ -13,7 +15,7 @@ class LanguageController extends AppController
         $lang = get('lang', 's');
         if ($lang) {
             if (array_key_exists($lang, App::$app->getProperty('languages'))) {
-                // orezeme URL
+                // отрезаем базовый URL
                 $url = trim(str_replace(PATH, '', $_SERVER['HTTP_REFERER']), '/');
 
                 // разбиваем на 2 части... 1-я часть - возможный бывший язык

@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers\admin;
+
 
 use wfm\App;
 use wfm\Cache;
@@ -10,8 +12,8 @@ class CacheController extends AppController
 
     public function indexAction()
     {
-        $title = 'Správa cache';
-        $this->setMeta("Admin :: {$title}");
+        $title = 'Управление кэшем';
+        $this->setMeta("Админка :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -30,7 +32,7 @@ class CacheController extends AppController
                 $cache->delete("ishop_page_menu_{$lang}");
             }
         }
-        $_SESSION['success'] = 'Vybraná cache vymazaná';
+        $_SESSION['success'] = 'Выбранный кэш удален';
         redirect();
     }
 

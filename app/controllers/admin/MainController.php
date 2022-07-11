@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers\admin;
+
 
 use RedBeanPHP\R;
 
@@ -14,8 +16,8 @@ class MainController extends AppController
         $users = R::count('user');
         $products = R::count('product');
 
-        $title = 'Hlavná stránka';
-        $this->setMeta('Аdmin :: Hlavná stránka');
+        $title = 'Главная страница';
+        $this->setMeta('Админка :: Главная страница');
         $this->set(compact('title', 'orders', 'new_orders', 'users', 'products'));
     }
 

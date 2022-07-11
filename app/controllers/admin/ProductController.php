@@ -21,8 +21,8 @@ class ProductController extends AppController
         $start = $pagination->getStart();
 
         $products = $this->model->get_products($lang, $start, $perpage);
-        $title = 'Zoznam produktov';
-        $this->setMeta("Аdmin :: {$title}");
+        $title = 'Produkty';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'products', 'pagination', 'total'));
     }
 
@@ -31,16 +31,16 @@ class ProductController extends AppController
         if (!empty($_POST)) {
             if ($this->model->product_validate()) {
                 if ($this->model->save_product()) {
-                    $_SESSION['success'] = 'Prokukt pridaný';
+                    $_SESSION['success'] = 'Produkt úspešne pridaný';
                 } else {
-                    $_SESSION['errors'] = 'Chyba pridania produktu';
+                    $_SESSION['errors'] = 'Chyba pri pradaní produktu';
                 }
             }
             redirect();
         }
 
         $title = 'Nový produkt';
-        $this->setMeta("Аdmin :: {$title}");
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -51,9 +51,9 @@ class ProductController extends AppController
         if (!empty($_POST)) {
             if ($this->model->product_validate()) {
                 if ($this->model->update_product($id)) {
-                    $_SESSION['success'] = 'Produkt uložený';
+                    $_SESSION['success'] = 'Produkt úspešne uložený';
                 } else {
-                    $_SESSION['errors'] = 'Chyba uloženia produktu';
+                    $_SESSION['errors'] = 'Chyba úpravy produktu';
                 }
             }
             redirect();
@@ -68,8 +68,8 @@ class ProductController extends AppController
 
         $lang = App::$app->getProperty('language')['id'];
         App::$app->setProperty('parent_id', $product[$lang]['category_id']);
-        $title = 'Správa produktov';
-        $this->setMeta("Аdmin :: {$title}");
+        $title = 'Úprava produktu';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'product', 'gallery'));
     }
 

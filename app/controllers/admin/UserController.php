@@ -19,7 +19,7 @@ class UserController extends AppController
         $start = $pagination->getStart();
 
         $users = $this->model->get_users($start, $perpage);
-        $title = 'Zoznam užívaťeľov';
+        $title = 'Užívatelia';
         $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'users', 'pagination', 'total'));
     }
@@ -39,7 +39,7 @@ class UserController extends AppController
         $start = $pagination->getStart();
 
         $orders = $this->model->get_user_orders($start, $perpage, $id);
-        $title = 'Profil užívaťeľa';
+        $title = 'Uživateľský profil';
         $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'user', 'pagination', 'total', 'orders'));
     }
@@ -48,21 +48,21 @@ class UserController extends AppController
     {
         if (!empty($_POST)) {
             $this->model->load();
-            if (!$this->model->validate($this->model->attributes) || !$this->model->checkUnique('Этот E-mail уже занят')) {
+            if (!$this->model->validate($this->model->attributes) || !$this->model->checkUnique('E-mail je už použitý')) {
                 $this->model->getErrors();
                 $_SESSION['form_data'] = $_POST;
             } else {
                 $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 if ($this->model->save('user')) {
-                    $_SESSION['success'] = 'Пользователь добавлен';
+                    $_SESSION['success'] = 'Užívateľ bol pridaný';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка добавления пользователя';
+                    $_SESSION['errors'] = 'Chyba pridania užívateľa';
                 }
             }
             redirect();
         }
-        $title = 'Новый пользователь';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Nový uživateľ';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -87,16 +87,16 @@ class UserController extends AppController
                     $this->model->attributes['password'] = password_hash($this->model->attributes['password'], PASSWORD_DEFAULT);
                 }
                 if ($this->model->update('user', $id)) {
-                    $_SESSION['success'] = 'Данные пользователя обновлены. Перезайдите, если вы обновляли свои данные';
+                    $_SESSION['success'] = 'Dáta uǐvateľa boli úspešne obnovené';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка обновления профиля пользователя';
+                    $_SESSION['errors'] = 'Chyba obnovenia uživateľského profilu';
                 }
             }
             redirect();
         }
 
-        $title = 'Редактирование пользователя';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Úprava dát uživateľa';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'user'));
     }
 
@@ -109,9 +109,9 @@ class UserController extends AppController
         $this->layout = 'login';
         if (!empty($_POST)) {
             if ($this->model->login(true)) {
-                $_SESSION['success'] = 'Вы успешно авторизованы';
+                $_SESSION['success'] = 'Ste úspešne autorizovaný';
             } else {
-                $_SESSION['errors'] = 'Логин/пароль введены неверно';
+                $_SESSION['errors'] = 'Login alebo heslo nie sú správne';
             }
             if ($this->model::isAdmin()) {
                 redirect(ADMIN);

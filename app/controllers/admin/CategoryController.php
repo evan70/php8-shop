@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\controllers\admin;
+
 
 use app\models\admin\Category;
 use RedBeanPHP\R;
@@ -12,8 +14,8 @@ class CategoryController extends AppController
 
     public function indexAction()
     {
-        $title = 'Kategórie';
-        $this->setMeta("Аdmin :: {$title}");
+        $title = 'Категории';
+        $this->setMeta("Админка :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -24,17 +26,17 @@ class CategoryController extends AppController
         $children = R::count('category', 'parent_id = ?', [$id]);
         $products = R::count('product', 'category_id = ?', [$id]);
         if ($children) {
-            $errors .= 'Chyba! Kategória má vložené pod-kategórie<br>';
+            $errors .= 'Ошибка! В категории есть вложенные категории<br>';
         }
         if ($products) {
-            $errors .= 'Chyba! Kategória má vložené produkty<br>';
+            $errors .= 'Ошибка! В категории есть товары<br>';
         }
         if ($errors) {
             $_SESSION['errors'] = $errors;
         } else {
             R::exec("DELETE FROM category WHERE id = ?", [$id]);
             R::exec("DELETE FROM category_description WHERE category_id = ?", [$id]);
-            $_SESSION['success'] = 'Kategória vymazaná';
+            $_SESSION['success'] = 'Категория удалена';
         }
         redirect();
     }
@@ -44,15 +46,15 @@ class CategoryController extends AppController
         if (!empty($_POST)) {
             if ($this->model->category_validate()) {
                 if ($this->model->save_category()) {
-                    $_SESSION['success'] = 'Kategória uložená';
+                    $_SESSION['success'] = 'Категория сохранена';
                 } else {
-                    $_SESSION['errors'] = 'Chyba!';
+                    $_SESSION['errors'] = 'Ошибка!';
                 }
             }
             redirect();
         }
-        $title = 'Pridať kategóriu';
-        $this->setMeta("Admin :: {$title}");
+        $title = 'Добавление категории';
+        $this->setMeta("Админка :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -62,9 +64,9 @@ class CategoryController extends AppController
         if (!empty($_POST)) {
             if ($this->model->category_validate()) {
                 if ($this->model->update_category($id)) {
-                    $_SESSION['success'] = 'Kategória bola zmenená';
+                    $_SESSION['success'] = 'Категория обновлена';
                 } else {
-                    $_SESSION['errors'] = 'Chyba!';
+                    $_SESSION['errors'] = 'Ошибка!';
                 }
             }
             redirect();
@@ -75,8 +77,8 @@ class CategoryController extends AppController
         }
         $lang = App::$app->getProperty('language')['id'];
         App::$app->setProperty('parent_id', $category[$lang]['parent_id']);
-        $title = 'Správa kategórií';
-        $this->setMeta("Admin :: {$title}");
+        $title = 'Редактирование категории';
+        $this->setMeta("Админка :: {$title}");
         $this->set(compact('title', 'category'));
     }
 

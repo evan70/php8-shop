@@ -65,3 +65,24 @@ class Cart extends AppModel
     }
 
 }
+
+/*Array
+(
+    [product_id] => Array
+        (
+            [qty] => QTY
+            [title] => TITLE
+            [price] => PRICE
+            [img] => IMG
+        )
+    [product_id] => Array
+        (
+            [qty] => QTY
+            [title] => TITLE
+            [price] => PRICE
+            [img] => IMG
+        )
+    )
+    [cart.qty] => QTY,
+    [cart.sum] => SUM
+*/

@@ -1,6 +1,8 @@
 <?php
 
+
 namespace app\models;
+
 
 use PHPMailer\PHPMailer\PHPMailer;
 use RedBeanPHP\R;
@@ -8,6 +10,7 @@ use wfm\App;
 
 class Order extends AppModel
 {
+
     public static function saveOrder($data): int|false
     {
         R::begin();
@@ -33,7 +36,7 @@ class Order extends AppModel
         $sql_part = '';
         $binds = [];
         foreach ($_SESSION['cart'] as $product_id => $product) {
-            // ak je tovar digital
+            // если цифровой товар
             if ($product['is_download']) {
                 $download_id = R::getCell("SELECT download_id FROM product_download WHERE product_id = ?", [$product_id]);
                 $order_download = R::xdispense('order_download');

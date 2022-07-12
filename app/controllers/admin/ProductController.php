@@ -33,7 +33,7 @@ class ProductController extends AppController
                 if ($this->model->save_product()) {
                     $_SESSION['success'] = 'Produkt úspešne pridaný';
                 } else {
-                    $_SESSION['errors'] = 'Chyba pri pradaní produktu';
+                    $_SESSION['errors'] = 'Chyba pri pridaní produktu';
                 }
             }
             redirect();
@@ -58,6 +58,8 @@ class ProductController extends AppController
             }
             redirect();
         }
+
+
 
         $product = $this->model->get_product($id);
         if (!$product) {

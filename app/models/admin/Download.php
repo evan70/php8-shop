@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models\admin;
-
 
 use app\models\AppModel;
 use RedBeanPHP\R;
@@ -21,18 +19,18 @@ class Download extends AppModel
         foreach ($_POST['download_description'] as $lang_id => $item) {
             $item['name'] = trim($item['name']);
             if (empty($item['name'])) {
-                $errors .= "Nevyplnený povinný vstup. údaj - meno {$lang_id}<br>";
+                $errors .= "Nevyplnený názov {$lang_id}<br>";
             }
         }
 
         if (empty($_FILES) || $_FILES['file']['error']) {
-            $errors .= "Chyba nahrania súboru<br>";
+            $errors .= "Chyba odoslania súboru<br>";
         } else {
             $extensions = ['jpg', 'jpeg', 'png', 'zip', 'pdf', 'txt'];
             $parts = explode('.', $_FILES['file']['name']);
             $ext = end($parts);
             if (!in_array($ext, $extensions)) {
-                $errors .= "Nahrať je možné len súbory typov: jpg, jpeg, png, zip, pdf, txt<br>";
+                $errors .= "Povolené typy súborov: jpg, jpeg, png, zip, pdf, txt<br>";
             }
         }
 

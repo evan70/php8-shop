@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models\admin;
-
 
 use app\models\AppModel;
 use RedBeanPHP\R;
@@ -35,20 +33,20 @@ class Product extends AppModel
     {
         $errors = '';
         if (!is_numeric(post('price'))) {
-            $errors .= "Cena musí byť zapísaná ako čislo<br>";
+            $errors .= "Cena musí byť číselnou hodnotou<br>";
         }
         if (!is_numeric(post('old_price'))) {
-            $errors .= "Stará cena musí byť zapísaná ako čislo<br>";
+            $errors .= "Stará cena musí byť číselnou hodnotou<br>";
         }
 
         foreach ($_POST['product_description'] as $lang_id => $item) {
             $item['title'] = trim($item['title']);
             $item['exerpt'] = trim($item['exerpt']);
             if (empty($item['title'])) {
-                $errors .= "Nevyplnený povinný vstup. údaj - názov {$lang_id}<br>";
+                $errors .= "Nevyplnený názov poľa tabuľky {$lang_id}<br>";
             }
             if (empty($item['exerpt'])) {
-                $errors .= "Nevyplnený povinný vstup. údaj - intro {$lang_id}<br>";
+                $errors .= "Nevyplnený krátky popis poľa tabuľky {$lang_id}<br>";
             }
         }
 

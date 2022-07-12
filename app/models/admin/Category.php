@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models\admin;
-
 
 use app\models\AppModel;
 use RedBeanPHP\R;
@@ -17,7 +15,7 @@ class Category extends AppModel
         foreach ($_POST['category_description'] as $lang_id => $item) {
             $item['title'] = trim($item['title']);
             if (empty($item['title'])) {
-                $errors .= "Ne vyplnený povinný vstup. údaj - názov {$lang_id}<br>";
+                $errors .= "Nevyplnené pole popisu názvu v tabe tabuľky {$lang_id}<br>";
             }
         }
         if ($errors) {

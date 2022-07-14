@@ -38,7 +38,6 @@
         <h4 class="text-start"><?php __('tpl_cart_empty'); ?></h4>
     <?php endif; ?>
 </div>
-
 <div class="modal-footer">
     <button type="button" class="btn btn-success ripple" data-bs-dismiss="modal"><?php __('tpl_cart_btn_continue') ?></button>
     <?php if (!empty($_SESSION['cart'])): ?>

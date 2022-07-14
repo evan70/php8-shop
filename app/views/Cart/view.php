@@ -10,6 +10,7 @@
 
 <div class="container py-3">
     <div class="row">
+
         <div class="col-lg-12 category-content">
             <h1 class="section-title"><?php __('tpl_cart_title'); ?></h1>
 
@@ -105,5 +106,7 @@
             <?php endif; ?>
 
         </div>
+
     </div>
 </div>
+

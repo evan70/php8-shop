@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models\admin;
-
 
 use app\models\AppModel;
 use RedBeanPHP\R;
@@ -43,10 +41,10 @@ class Page extends AppModel
             $item['title'] = trim($item['title']);
             $item['content'] = trim($item['content']);
             if (empty($item['title'])) {
-                $errors .= "Nevyplnený povinný vstup. údaj - názov {$lang_id}<br>";
+                $errors .= "Nevyplnený názov tabu tabuľky {$lang_id}<br>";
             }
             if (empty($item['content'])) {
-                $errors .= "Nevyplnený povinný vstup. údaj - obsah {$lang_id}<br>";
+                $errors .= "Nevyplnený obsah tabu tabuľky {$lang_id}<br>";
             }
         }
 

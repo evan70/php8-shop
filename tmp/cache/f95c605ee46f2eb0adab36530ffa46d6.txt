@@ -1,8 +1,8 @@
-a:2:{s:4:"data";s:1023:"<li class="nav-item ">
-    <a class="nav-link " href="category/pocitace" >Computers</a>
+a:2:{s:4:"data";s:1039:"<li class="nav-item ">
+    <a class="nav-link " href="category/kompyutery" >Computers</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/tablety" >Tablets</a>
+    <a class="nav-link " href="category/planshety" >Tablets</a>
     </li>
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="category/noutbuki" data-bs-toggle="dropdown">Notebooks</a>
@@ -25,6 +25,6 @@ a:2:{s:4:"data";s:1023:"<li class="nav-item ">
     <a class="nav-link " href="category/test" >Test</a>
     </li>
 <li class="nav-item ">
-    <a class="nav-link " href="category/knitwear" >Knitwear</a>
+    <a class="nav-link " href="category/test-podkateg-ria" >test subcat</a>
     </li>
-";s:8:"end_time";i:1657300907;}
+";s:8:"end_time";i:1657917881;}

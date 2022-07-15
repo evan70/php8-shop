@@ -1,1 +1,1 @@
-a:2:{s:4:"data";s:263:"<li><a href='page/o-magazine'>Niečo o nás</a></li><li><a href='page/oplata-i-dostavka'>Оплата и доставка</a></li><li><a href='page/kontakty'>Контакты</a></li><li><a href='page/testovaya-stranica'>Тестовая страница</a></li>";s:8:"end_time";i:1657314086;}
+a:2:{s:4:"data";s:136:"<li><a href='page/o-magazine'>О магазине</a></li><li><a href='page/oplata-i-dostavka'>Оплата и доставка</a></li>";s:8:"end_time";i:1657920966;}

@@ -14,6 +14,25 @@ class Product extends AppModel
         return R::getAll("SELECT p.*, pd.title FROM product p JOIN product_description pd on p.id = pd.product_id WHERE pd.language_id = ? LIMIT $start, $perpage", [$lang['id']]);
     }
 
+
+    public function deleteProduct($id): bool
+    {
+        R::begin();
+        try {
+            $page = R::load('product_id', $id);
+            if (!$product_id) {
+                return false;
+            }
+            R::trash($product_id);
+            R::exec("DELETE FROM product_description (product_id, language_id, title, content, exerpt, keywords, description) WHERE product_id = ?", [$id]);
+            R::commit();
+            return true;
+        } catch (\Exception $e) {
+            R::rollback();
+            return false;
+        }
+    }
+
     public function get_downloads($q): array
     {
         $data = [];
@@ -114,6 +133,7 @@ class Product extends AppModel
             return false;
         }
     }
+
 
     public function update_product($id): bool
     {

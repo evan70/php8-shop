@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Page;
 use RedBeanPHP\R;
@@ -23,8 +21,8 @@ class PageController extends AppController
         $start = $pagination->getStart();
 
         $pages = $this->model->get_pages($lang, $start, $perpage);
-        $title = 'Список страниц';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Zoznam stránok';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'pages', 'pagination', 'total'));
     }
 

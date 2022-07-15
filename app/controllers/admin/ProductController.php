@@ -44,6 +44,21 @@ class ProductController extends AppController
         $this->set(compact('title'));
     }
 
+    public function deleteAction()
+    {
+        $id = get('id');
+        $errors = '';
+
+        if ($errors) {
+            $_SESSION['errors'] = $errors;
+        } else {
+            R::exec("DELETE FROM product WHERE id = ?", [$id]);
+            R::exec("DELETE FROM product_description WHERE product_id = ?", [$id]);
+            $_SESSION['success'] = 'Produkt bol úspešne vymazaný';
+        }
+        redirect();
+    }
+
     public function editAction()
     {
         $id = get('id');

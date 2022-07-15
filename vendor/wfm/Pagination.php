@@ -1,8 +1,6 @@
 <?php
 
-
 namespace wfm;
-
 
 class Pagination
 {
@@ -24,14 +22,14 @@ class Pagination
 
     public function getHtml()
     {
-        $back = null; // ссылка НАЗАД
-        $forward = null; // ссылка ВПЕРЕД
-        $startpage = null; // ссылка В НАЧАЛО
-        $endpage = null; // ссылка В КОНЕЦ
-        $page2left = null; // вторая страница слева
-        $page1left = null; // первая страница слева
-        $page2right = null; // вторая страница справа
-        $page1right = null; // первая страница справа
+        $back = null; // link BACK
+        $forward = null; // link FWD
+        $startpage = null; // link to START
+        $endpage = null; // link to END
+        $page2left = null; // druha stranka zlava
+        $page1left = null; // prva stranka zlava
+        $page2right = null; // druha stranka zprava
+        $page1right = null; // prva stranka zprava
 
         // $back
         if ($this->currentPage > 1) {

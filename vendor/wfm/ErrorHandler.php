@@ -42,14 +42,14 @@ class ErrorHandler
     public function exceptionHandler(\Throwable $e)
     {
         $this->logError($e->getMessage(), $e->getFile(), $e->getLine());
-        $this->displayError('Исключение', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
+        $this->displayError('Pozor > výnimka - exception!', $e->getMessage(), $e->getFile(), $e->getLine(), $e->getCode());
     }
 
     protected function logError($message = '', $file = '', $line = '')
     {
         file_put_contents(
             LOGS . '/errors.log',
-            "[" . date('Y-m-d H:i:s') . "] Текст ошибки: {$message} | Файл: {$file} | Строка: {$line}\n=================\n",
+            "[" . date('Y-m-d H:i:s') . "] Text chyby: {$message} | Súbor: {$file} | Riadok: {$line}\n=================\n",
             FILE_APPEND);
     }
 

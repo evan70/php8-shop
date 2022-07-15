@@ -1,16 +1,14 @@
 <?php
 
-
 namespace wfm;
-
 
 class Language
 {
-    // массив со всеми переводными фразами страницы
+    // datove pole vsetkych fraz aplikacie
     public static array $lang_data = [];
-    // массив с переводными фразами шаблона
+    // datove pole s frazami sablon
     public static array $lang_layout = [];
-    // массив с переводными фразами вида
+    // datove pole s frazami view
     public static array $lang_view = [];
 
     public static function load($code, $view)

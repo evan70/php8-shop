@@ -14,7 +14,8 @@ class Db
     private function __construct()
     {
         $db = require_once CONFIG . '/config_db.php';
-        R::setup($db['dsn'],$db['charset']); // R::setup('sqlite:ishop.db'); R::setup($db['dsn'], $db['user'], $db['password']);
+        R::setup($db['dsn']);
+        //R::setup($db['dsn'], $db['user'], $db['password']);
         if (!R::testConnection()) {
             throw new \Exception('No connection to DB', 500);
         }

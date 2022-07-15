@@ -1,8 +1,6 @@
 <?php
 
-
 namespace wfm;
-
 
 class Router
 {
@@ -56,14 +54,14 @@ class Router
                     $controllerObject->$action();
                     $controllerObject->getView();
                 } else {
-                    throw new \Exception("Метод {$controller}::{$action} не найден", 404);
+                    throw new \Exception("Metóda {$controller}::{$action} nebola nájdená", 404);
                 }
             } else {
-                throw new \Exception("Контроллер {$controller} не найден", 404);
+                throw new \Exception("Conroller {$controller} nebol nájdený", 404);
             }
 
         } else {
-            throw new \Exception("Страница не найдена", 404);
+            throw new \Exception("Stránka nebola nájdená", 404);
         }
     }
 

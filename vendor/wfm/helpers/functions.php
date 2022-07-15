@@ -10,7 +10,8 @@ function debug($data, $die = false)
 
 function h($str)
 {
-    return htmlspecialchars($str ?? '', ENT_QUOTES, 'UTF-8');
+    //return htmlspecialchars($str ?? '', ENT_QUOTES, 'UTF-8');
+    return htmlentities($str,ENT_QUOTES, "UTF-8");
 }
 
 function redirect($http = false)
@@ -85,7 +86,8 @@ function get_cart_icon($id)
     return $icon;
 }
 
-function get_field_array_value($name)
+//function get_field_array_value($name)
+function get_field_value($name)
 {
     return isset($_SESSION['form_data'][$name]) ? h($_SESSION['form_data'][$name]) : '';
 }

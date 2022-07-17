@@ -8,7 +8,6 @@ var config = {};
 // Set your configuration options below.
 
 // Examples:
-config.language = 'sk';
-//config.skin = 'jquery-mobile';
-config.skin = 'neko';
+config.language = 'en';
+config.skin = 'jquery-mobile';
 CKFinder.define( config );

@@ -1,6 +1,8 @@
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
+# no listing directories
 RewriteRule (.*) index.php?$1 [L,QSA]
 
 #Options -Indexes
+# no listing directories

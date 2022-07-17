@@ -3,7 +3,6 @@
 
     <div class="card-body">
 
-
         <table class="table table-bordered">
             <thead>
             <tr>
@@ -15,10 +14,10 @@
             <tbody>
             <tr>
                 <td>
-                    Cache kategóriǐ
+                    Cache kategórií
                 </td>
                 <td>
-                    Menu kategórií. Kešuje sa na 1 hodinu.
+                    Menu kategórií. Je v cache na 1 hodinu.
                 </td>
                 <td width="50">
                     <a class="btn btn-danger btn-sm delete"
@@ -29,10 +28,10 @@
             </tr>
             <tr>
                 <td>
-                    Кэш страниц
+                    Cache stránok
                 </td>
                 <td>
-                    Меню страниц в футере. Кэшируется на 1 час.
+                    Menu stránok. Je v cache na 1 hodinu.
                 </td>
                 <td width="50">
                     <a class="btn btn-danger btn-sm delete"

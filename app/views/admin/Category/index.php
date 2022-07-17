@@ -2,7 +2,7 @@
 <div class="card">
 
     <div class="card-header">
-        <a href="<?= ADMIN ?>/category/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Добавить категорию</a>
+        <a href="<?= ADMIN ?>/category/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Pridať kategóriu</a>
     </div>
 
     <div class="card-body">
@@ -20,4 +20,3 @@
     </div>
 </div>
 <!-- /.card -->
-

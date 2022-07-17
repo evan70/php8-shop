@@ -35,7 +35,7 @@ use wfm\View;
                     <form action="search">
                         <div class="input-group" id="search">
                             <input type="text" class="form-control" placeholder="<?php __('tpl_search'); ?>" name="s">
-                            <button class="btn close-search" type="button"><i class="fas fa-times"></i></i></button>
+                            <button class="btn close-search" type="button"><i class="fas fa-times"></i></button>
                             <button class="btn" type="submit"><i class="fas fa-search"></i></button>
                         </div>
                     </form>
@@ -56,20 +56,15 @@ use wfm\View;
                             <?php if (empty($_SESSION['user'])): ?>
                                 <li><a class="dropdown-item" href="user/login"><?php __('tpl_login'); ?></a></li>
                                 <li><a class="dropdown-item" href="user/signup"><?php __('tpl_signup'); ?></a></li>
-                            <?php else: ?>
-                                <li><a class="dropdown-item" href="user/cabinet"><?php __('tpl_cabinet'); ?></a></li>
-                                <li><a class="dropdown-item" href="user/logout"><?php __('tpl_logout'); ?></a></li>
-                            <?php endif; ?>
-                        </ul>
+                                <?php else:?><li><a class="dropdown-item" href="user/cabinet"><?php __('tpl_cabinet'); ?></a></li>
+                            <li><a class="dropdown-item" href="user/logout"><?php __('tpl_logout'); ?></a></li>
+                        <?php endif; ?></ul>
                     </div>
-
                     <?php new \app\widgets\language\Language() ?>
-
                 </div>
             </div>
         </div>
     </div><!-- header-top -->
-
     <div class="header-bottom py-2">
         <div class="container">
 

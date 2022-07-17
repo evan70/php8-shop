@@ -2,7 +2,6 @@
 /** @var $this \wfm\View */
 /** @var $products array */
 ?>
-
 <div class="container">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb bg-light p-2">

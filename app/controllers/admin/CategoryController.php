@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Category;
 use RedBeanPHP\R;
@@ -14,8 +12,8 @@ class CategoryController extends AppController
 
     public function indexAction()
     {
-        $title = 'Категории';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Kategórie';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -26,17 +24,17 @@ class CategoryController extends AppController
         $children = R::count('category', 'parent_id = ?', [$id]);
         $products = R::count('product', 'category_id = ?', [$id]);
         if ($children) {
-            $errors .= 'Ошибка! В категории есть вложенные категории<br>';
+            $errors .= 'Chyba! Kategória obsahuje vložené pod-kategórie<br>';
         }
         if ($products) {
-            $errors .= 'Ошибка! В категории есть товары<br>';
+            $errors .= 'Chyba! Kategória obsahuje vložené produkty<br>';
         }
         if ($errors) {
             $_SESSION['errors'] = $errors;
         } else {
             R::exec("DELETE FROM category WHERE id = ?", [$id]);
             R::exec("DELETE FROM category_description WHERE category_id = ?", [$id]);
-            $_SESSION['success'] = 'Категория удалена';
+            $_SESSION['success'] = 'Kategória úspešne vymazaná';
         }
         redirect();
     }

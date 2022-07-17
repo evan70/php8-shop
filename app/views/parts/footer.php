@@ -11,7 +11,7 @@ use wfm\View;
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_information'); ?></h4>
                     <?php new \app\widgets\page\Page([
-//                      'cache' => 0,
+//                        'cache' => 0,
                         'class' => 'list-unstyled',
                         'prepend' => '<li><a href="' . base_url() . '">' . ___('tpl_home_link') . '</a></li>',
                     ]) ?>
@@ -20,18 +20,18 @@ use wfm\View;
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_work_hours'); ?></h4>
                     <ul class="list-unstyled">
-                        <li>Liptovský Hrádok, Dovalovo 138</li>
-                        <li>po-pia: 9:00 - 18:00</li>
-                        <li>bez prestávky</li>
+                        <li>г. Киев, ул. Пушкина, 10</li>
+                        <li>пн-вс: 9:00 - 18:00</li>
+                        <li>без перерыва</li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 col-6">
                     <h4><?php __('tpl_contacts'); ?></h4>
                     <ul class="list-unstyled">
-                        <li><a href="tel:5551234567">0421 123-45-67</a></li>
-                        <li><a href="tel:5551234567">0421 123-45-68</a></li>
-                        <li><a href="tel:5551234567">0421 123-45-69</a></li>
+                        <li><a href="tel:5551234567">555 123-45-67</a></li>
+                        <li><a href="tel:5551234567">555 123-45-68</a></li>
+                        <li><a href="tel:5551234567">555 123-45-69</a></li>
                     </ul>
                 </div>
 

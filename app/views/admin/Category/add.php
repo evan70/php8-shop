@@ -6,7 +6,7 @@
         <form action="" method="post">
 
             <div class="form-group">
-                <label class="required" for="parent_id">Родительская категория</label>
+                <label class="required" for="parent_id">Rodičovká kategória</label>
                 <?php new \app\widgets\menu\Menu([
                     'cache' => 0,
                     'cacheKey' => 'admin_menu_select',
@@ -42,22 +42,22 @@
 
                                 <div class="form-group">
                                     <label class="required" for="title">Наименование</label>
-                                    <input type="text" name="category_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование категории" value="<?= get_field_array_value('category_description', $lang['id'], 'title') ?>" required>
+                                    <input type="text" name="category_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование категории" value="<?= get_field_value('category_description', $lang['id'], 'title') ?>" required>
                                 </div>
 
                                 <div class="form-group">
                                     <label for="description">Мета-описание</label>
-                                    <input type="text" name="category_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Мета-описание" value="<?= get_field_array_value('category_description', $lang['id'], 'description') ?>">
+                                    <input type="text" name="category_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Мета-описание" value="<?= get_field_value('category_description', $lang['id'], 'description') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="keywords">Ключевые слова</label>
-                                    <input type="text" name="category_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Ключевые слова" value="<?= get_field_array_value('category_description', $lang['id'], 'keywords') ?>">
+                                    <input type="text" name="category_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Ключевые слова" value="<?= get_field_value('category_description', $lang['id'], 'keywords') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="content">Описание категории</label>
-                                    <textarea name="category_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Описание категории"><?= get_field_array_value('category_description', $lang['id'], 'content') ?></textarea>
+                                    <textarea name="category_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Описание категории"><?= get_field_value('category_description', $lang['id'], 'content') ?></textarea>
                                 </div>
 
                             </div>

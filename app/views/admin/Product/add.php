@@ -25,13 +25,13 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label class="required" for="price">Цена</label>
-                        <input type="text" name="price" class="form-control" id="price" placeholder="Цена" value="<?= get_field_array_value('price') ?: 0 ?>">
+                        <input type="text" name="price" class="form-control" id="price" placeholder="Цена" value="<?= get_field_value('price') ?: 0 ?>">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label for="old_price">Старая цена</label>
-                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Старая цена" value="<?= get_field_array_value('old_price') ?: 0 ?>">
+                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Старая цена" value="<?= get_field_value('old_price') ?: 0 ?>">
                     </div>
                 </div>
             </div>
@@ -110,27 +110,27 @@
 
                                 <div class="form-group">
                                     <label class="required" for="title">Наименование</label>
-                                    <input type="text" name="product_description[<?= $lang['id']?>][title]" class="form-control" id="title" placeholder="Наименование товара" value="">
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование товара" value="<?= get_field_value('product_description', $lang['id'], 'title') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="description">Мета-описание</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Мета-описание" value="<?= get_field_array_value('product_description', $lang['id'], 'description') ?>">
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Мета-описание" value="<?= get_field_value('product_description', $lang['id'], 'description') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="keywords">Ключевые слова</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Ключевые слова" value="<?= get_field_array_value('product_description', $lang['id'], 'keywords') ?>">
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Ключевые слова" value="<?= get_field_value('product_description', $lang['id'], 'keywords') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="exerpt" class="required">Краткое описание</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][exerpt]" class="form-control" id="exerpt" placeholder="Краткое описание" value="<?= get_field_array_value('product_description', $lang['id'], 'exerpt') ?>">
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][exerpt]" class="form-control" id="exerpt" placeholder="Краткое описание" value="<?= get_field_value('product_description', $lang['id'], 'exerpt') ?>">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="content">Описание товара</label>
-                                    <textarea name="product_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Описание товара"><?= get_field_array_value('product_description', $lang['id'], 'content') ?></textarea>
+                                    <textarea name="product_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Описание товара"><?= get_field_value('product_description', $lang['id'], 'content') ?></textarea>
                                 </div>
 
                             </div>

@@ -1,4 +1,3 @@
-
 <div class="col-md-3 order-md-2">
     <div class="list-group">
         <a href="user/orders" class="list-group-item list-group-item-action"><?php __('tpl_orders'); ?></a>

@@ -1,4 +1,4 @@
-a:2:{s:4:"data";s:1083:"<li class="nav-item ">
+a:2:{s:4:"data";s:1257:"<li class="nav-item ">
     <a class="nav-link " href="category/kompyutery" >Kompjútery</a>
     </li>
 <li class="nav-item ">
@@ -21,10 +21,12 @@ a:2:{s:4:"data";s:1083:"<li class="nav-item ">
 <li class="nav-item ">
     <a class="nav-link " href="category/kamery" >Камеры</a>
     </li>
-<li class="nav-item ">
-    <a class="nav-link " href="category/test" >Тест</a>
-    </li>
-<li class="nav-item ">
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="category/test-podkateg-ria-15" data-bs-toggle="dropdown">test podkategória</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="nav-item ">
     <a class="nav-link " href="category/test-podkateg-ria" >test podkategória</a>
     </li>
-";s:8:"end_time";i:1657917876;}
+        </ul>
+    </li>
+";s:8:"end_time";i:1658079548;}

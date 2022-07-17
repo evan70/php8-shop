@@ -10,8 +10,8 @@ function debug($data, $die = false)
 
 function h($str)
 {
-    //return htmlspecialchars($str ?? '', ENT_QUOTES, 'UTF-8');
-    return htmlentities($str,ENT_QUOTES, "UTF-8");
+    return htmlspecialchars($str ?? '', ENT_QUOTES, 'UTF-8');
+    //return htmlentities($str,ENT_QUOTES, "UTF-8");
 }
 
 function redirect($http = false)

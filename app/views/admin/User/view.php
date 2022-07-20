@@ -14,11 +14,11 @@
                     <td><?= $user['email'] ?></td>
                 </tr>
                 <tr>
-                    <td>Имя</td>
+                    <td>Meno</td>
                     <td><?= $user['name'] ?></td>
                 </tr>
                 <tr>
-                    <td>Адрес</td>
+                    <td>Adreasa</td>
                     <td><?= $user['address'] ?></td>
                 </tr>
                 <tr>

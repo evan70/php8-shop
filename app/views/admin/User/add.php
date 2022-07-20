@@ -14,37 +14,37 @@
 
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="password">Пароль</label>
+                    <label for="password">Heslo</label>
                     <input type="password" name="password" class="form-control" id="password">
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="form-group">
-                    <label class="required" for="name">Имя</label>
+                    <label class="required" for="name">Meno</label>
                     <input type="text" name="name" class="form-control" id="name" value="<?= get_field_value('name') ?>">
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="form-group">
-                    <label class="required" for="address">Адрес</label>
+                    <label class="required" for="address">Adresa</label>
                     <input type="text" name="address" class="form-control" id="address" value="<?= get_field_value('address') ?>">
                 </div>
             </div>
 
             <div class="col-md-12">
                 <div class="form-group">
-                    <label class="required" for="role">Роль</label>
+                    <label class="required" for="role">Úroveň</label>
                     <select name="role" id="role" class="form-control">
-                        <option value="user">Пользователь</option>
-                        <option value="admin">Администратор</option>
+                        <option value="user">Uživateľ</option>
+                        <option value="admin">Admin</option>
                     </select>
                 </div>
             </div>
 
             <div class="col">
-                <button type="submit" class="btn btn-primary">Сохранить</button>
+                <button type="submit" class="btn btn-primary">Uložiť</button>
             </div>
 
         </form>

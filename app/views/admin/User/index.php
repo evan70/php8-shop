@@ -2,7 +2,7 @@
 <div class="card">
 
     <div class="card-header">
-        <a href="<?= ADMIN ?>/user/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Добавить пользователя</a>
+        <a href="<?= ADMIN ?>/user/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Pridať uživateľa</a>
     </div>
 
     <div class="card-body">
@@ -13,8 +13,8 @@
                 <tr>
                     <th>ID</th>
                     <th>Email</th>
-                    <th>Имя</th>
-                    <th>Роль</th>
+                    <th>Meno</th>
+                    <th>Ǔroveň</th>
                     <th width="50"><i class="fas fa-eye"></i></th>
                     <th width="50"><i class="fas fa-pencil-alt"></i></th>
                 </tr>
@@ -25,7 +25,7 @@
                         <td><?= $user['id'] ?></td>
                         <td><?= $user['email'] ?></td>
                         <td><?= $user['name'] ?></td>
-                        <td><?= $user['role'] == 'user' ? 'Пользователь' : 'Администратор' ?></td>
+                        <td><?= $user['role'] == 'user' ? 'Uživateľ' : 'Admin' ?></td>
                         <td>
                             <a class="btn btn-info btn-sm" href="<?= ADMIN ?>/user/view?id=<?= $user['id'] ?>">
                                 <i class="fas fa-eye"></i>
@@ -43,7 +43,7 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <p><?= count($users) ?> пользователь(я/ей) из: <?= $total; ?></p>
+                    <p><?= count($users) ?> uživateľ(ia/ov) z: <?= $total; ?></p>
                     <?php if ($pagination->countPages > 1): ?>
                         <?= $pagination; ?>
                     <?php endif; ?>
@@ -51,7 +51,7 @@
             </div>
 
         <?php else: ?>
-            <p>Пользователей не найдено...</p>
+            <p>Uživatelia zatiaľ nenájnený ...</p>
         <?php endif; ?>
 
     </div>

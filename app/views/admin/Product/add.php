@@ -6,7 +6,7 @@
         <form action="" method="post">
 
             <div class="form-group">
-                <label class="required" for="parent_id">Категория</label>
+                <label class="required" for="parent_id">Kategória</label>
                 <?php new \app\widgets\menu\Menu([
                     'cache' => 0,
                     'cacheKey' => 'admin_menu_select',
@@ -24,14 +24,14 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label class="required" for="price">Цена</label>
-                        <input type="text" name="price" class="form-control" id="price" placeholder="Цена" value="<?= get_field_value('price') ?: 0 ?>">
+                        <label class="required" for="price">Cena</label>
+                        <input type="text" name="price" class="form-control" id="price" placeholder="Cena" value="<?= get_field_value('price') ?: 0 ?>">
                     </div>
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="old_price">Старая цена</label>
-                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Старая цена" value="<?= get_field_value('old_price') ?: 0 ?>">
+                        <label for="old_price">Stará cena</label>
+                        <input type="text" name="old_price" class="form-control" id="old_price" placeholder="Stará cena" value="<?= get_field_value('old_price') ?: 0 ?>">
                     </div>
                 </div>
             </div>
@@ -39,14 +39,14 @@
             <div class="form-group">
                 <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="status" name="status" checked>
-                    <label for="status" class="custom-control-label">Показывать на сайте</label>
+                    <label for="status" class="custom-control-label">Zobraiť na titulke</label>
                 </div>
             </div>
 
             <div class="form-group">
                 <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="hit" name="hit">
-                    <label for="hit" class="custom-control-label">Хит</label>
+                    <label for="hit" class="custom-control-label">Hit</label>
                 </div>
             </div>
 

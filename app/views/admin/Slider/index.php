@@ -9,11 +9,11 @@
                 <div class="col-md-12">
                     <div class="card card-outline card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Фото слайдера</h3>
+                            <h3 class="card-title">Foto slajdera</h3>
                         </div>
                         <div class="card-body">
                             <button class="btn btn-success" id="add-gallery-img"
-                                    onclick="popupGalleryImage(); return false;">Загрузить
+                                    onclick="popupGalleryImage(); return false;">Nahrať foto
                             </button>
                             <div id="gallery-img-output" class="upload-images gallery-image">
                                 <?php if (!empty($gallery)): ?>
@@ -34,7 +34,7 @@
                 </div>
             </div>
 
-            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <button type="submit" class="btn btn-primary">Uložiť</button>
 
         </form>
 

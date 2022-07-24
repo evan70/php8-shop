@@ -78,10 +78,10 @@
                 <div class="col-md-12">
                     <div class="card card-outline card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Дополнительные фото</h3>
+                            <h3 class="card-title">Sekundárne fotky</h3>
                         </div>
                         <div class="card-body">
-                            <button class="btn btn-success" id="add-gallery-img" onclick="popupGalleryImage(); return false;">Загрузить</button>
+                            <button class="btn btn-success" id="add-gallery-img" onclick="popupGalleryImage(); return false;">Vložiť</button>
                             <div id="gallery-img-output" class="upload-images gallery-image"></div>
                         </div>
                         <!-- /.card-body -->
@@ -109,13 +109,13 @@
                             <div class="tab-pane fade <?php if ($lang['base']) echo 'active show' ?>" id="<?= $k ?>">
 
                                 <div class="form-group">
-                                    <label class="required" for="title">Наименование</label>
+                                    <label class="required" for="title">Názov</label>
                                     <input type="text" name="product_description[<?= $lang['id'] ?>][title]" class="form-control" id="title" placeholder="Наименование товара" value="<?= get_field_value('product_description', $lang['id'], 'title') ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="description">Мета-описание</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Мета-описание" value="<?= get_field_value('product_description', $lang['id'], 'description') ?>">
+                                    <label for="description">Meta-popis</label>
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][description]" class="form-control" id="description" placeholder="Meta-popis" value="<?= get_field_value('product_description', $lang['id'], 'description') ?>">
                                 </div>
 
                                 <div class="form-group">

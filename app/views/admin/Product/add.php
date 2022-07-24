@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
-                        <label for="is_download">Прикрепите загружаемый файл, чтобы товар стал цифровым</label>
+                        <label for="is_download">Priložte súbor by sa produkt stal digitálnym</label>
                         <select name="is_download" class="form-control select2 is-download" id="is_download" style="width: 100%;"></select>
                     </div>
                 </div>
@@ -63,10 +63,10 @@
                 <div class="col-md-12">
                     <div class="card card-outline card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Основное фото</h3>
+                            <h3 class="card-title">Primárne foto</h3>
                         </div>
                         <div class="card-body">
-                            <button class="btn btn-success" id="add-base-img" onclick="popupBaseImage(); return false;">Загрузить</button>
+                            <button class="btn btn-success" id="add-base-img" onclick="popupBaseImage(); return false;">Vložiť</button>
                             <div id="base-img-output" class="upload-images base-image"></div>
                         </div>
                         <!-- /.card-body -->

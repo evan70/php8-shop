@@ -119,18 +119,18 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="keywords">Ключевые слова</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Ключевые слова" value="<?= get_field_value('product_description', $lang['id'], 'keywords') ?>">
+                                    <label for="keywords">Kľúčové slová</label>
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][keywords]" class="form-control" id="keywords" placeholder="Kľúčové slová" value="<?= get_field_value('product_description', $lang['id'], 'keywords') ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="exerpt" class="required">Краткое описание</label>
-                                    <input type="text" name="product_description[<?= $lang['id'] ?>][exerpt]" class="form-control" id="exerpt" placeholder="Краткое описание" value="<?= get_field_value('product_description', $lang['id'], 'exerpt') ?>">
+                                    <label for="exerpt" class="required">Krátky popis</label>
+                                    <input type="text" name="product_description[<?= $lang['id'] ?>][exerpt]" class="form-control" id="exerpt" placeholder="Krátky popis" value="<?= get_field_value('product_description', $lang['id'], 'exerpt') ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="content">Описание товара</label>
-                                    <textarea name="product_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Описание товара"><?= get_field_value('product_description', $lang['id'], 'content') ?></textarea>
+                                    <label for="content">Popis produktu</label>
+                                    <textarea name="product_description[<?= $lang['id'] ?>][content]" class="form-control editor" id="content" rows="3" placeholder="Popis produktu"><?= get_field_value('product_description', $lang['id'], 'content') ?></textarea>
                                 </div>
 
                             </div>
@@ -140,7 +140,7 @@
                 <!-- /.card -->
             </div>
 
-            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <button type="submit" class="btn btn-primary">Uložiť</button>
 
         </form>
 

@@ -32,9 +32,9 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label for="old_price">Старая цена</label>
+                        <label for="old_price">Stará cena</label>
                         <input type="text" name="old_price" class="form-control" id="old_price"
-                               placeholder="Старая цена" value="<?= $product[$key]['old_price'] ?>">
+                               placeholder="Stará cena" value="<?= $product[$key]['old_price'] ?>">
                     </div>
                 </div>
             </div>

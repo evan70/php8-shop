@@ -153,16 +153,16 @@
                             <div class="tab-pane fade <?php if ($lang['base']) echo 'active show' ?>" id="<?= $k ?>">
 
                                 <div class="form-group">
-                                    <label class="required" for="title">Наименование</label>
+                                    <label class="required" for="title">Názov produktu</label>
                                     <input type="text" name="product_description[<?= $lang['id'] ?>][title]"
-                                           class="form-control" id="title" placeholder="Наименование товара"
+                                           class="form-control" id="title" placeholder="Názov produktu"
                                            value="<?= h($product[$lang['id']]['title']) ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="description">Мета-описание</label>
+                                    <label for="description">Meta-opis</label>
                                     <input type="text" name="product_description[<?= $lang['id'] ?>][description]"
-                                           class="form-control" id="description" placeholder="Мета-описание"
+                                           class="form-control" id="description" placeholder="Meta-opis"
                                            value="<?= h($product[$lang['id']]['description']) ?>">
                                 </div>
 

@@ -38,63 +38,63 @@
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>Главная</p>
+                        <p>Hlavná</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/category" class="nav-link">
                         <i class="nav-icon fas fa-th"></i>
-                        <p>Категории</p>
+                        <p>Kategórie</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/product" class="nav-link">
                         <i class="nav-icon fas fa-barcode"></i>
-                        <p>Товары</p>
+                        <p>Produkty</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/download" class="nav-link">
                         <i class="nav-icon fas fa-file-upload"></i>
-                        <p>Файлы</p>
+                        <p>Súbory</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/order" class="nav-link">
                         <i class="nav-icon fas fa-shopping-bag"></i>
-                        <p>Заказы</p>
+                        <p>Objednávky</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/user" class="nav-link">
                         <i class="nav-icon fas fa-user-friends"></i>
-                        <p>Пользователи</p>
+                        <p>Uživatelia</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/cache" class="nav-link">
                         <i class="nav-icon fas fa-database"></i>
-                        <p>Управление кэшем</p>
+                        <p>Správa cache pamäte</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/page" class="nav-link">
                         <i class="nav-icon far fa-file-alt"></i>
-                        <p>Страницы</p>
+                        <p>Web stránky</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
                     <a href="<?= ADMIN ?>/slider" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
-                        <p>Слайдер</p>
+                        <p>Slajder</p>
                     </a>
                 </li>
 

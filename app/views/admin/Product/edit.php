@@ -7,7 +7,7 @@
         <form action="" method="post">
 
             <div class="form-group">
-                <label class="required" for="parent_id">Категория</label>
+                <label class="required" for="parent_id">Kategória</label>
                 <?php new \app\widgets\menu\Menu([
                     'cache' => 0,
                     'cacheKey' => 'admin_menu_select',
@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <div class="form-group">
-                        <label class="required" for="price">Цена</label>
+                        <label class="required" for="price">Cena</label>
                         <input type="text" name="price" class="form-control" id="price" placeholder="Цена"
                                value="<?= $product[$key]['price'] ?>">
                     </div>
@@ -43,7 +43,7 @@
                 <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="status"
                            name="status" <?= $product[$key]['status'] ? 'checked' : '' ?>>
-                    <label for="status" class="custom-control-label">Показывать на сайте</label>
+                    <label for="status" class="custom-control-label">Ukázať na stránke</label>
                 </div>
             </div>
 

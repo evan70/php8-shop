@@ -51,7 +51,7 @@
                 <div class="custom-control custom-checkbox">
                     <input class="custom-control-input" type="checkbox" id="hit"
                            name="hit" <?= $product[$key]['hit'] ? 'checked' : '' ?>>
-                    <label for="hit" class="custom-control-label">Хит</label>
+                    <label for="hit" class="custom-control-label">Cenový hit</label>
                 </div>
             </div>
 
@@ -59,10 +59,10 @@
                 <div class="col-md-12">
 
                     <div class="form-group">
-                        <label for="is_download">Прикрепите загружаемый файл, чтобы товар стал цифровым</label>
+                        <label for="is_download">Priložte nahratý súbor, aby sa produkt stal digitálnym</label>
                         <?php if (isset($product[$key]['download_id'])): ?>
                             <p class="clear-download">
-                                <span class="btn btn-danger">Обычный товар</span>
+                                <span class="btn btn-danger">Bežný produkt</span>
                             </p>
                         <?php endif; ?>
                         <select name="is_download" class="form-control select2 is-download" id="is_download" style="width: 100%;">
@@ -80,11 +80,11 @@
                 <div class="col-md-12">
                     <div class="card card-outline card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Основное фото</h3>
+                            <h3 class="card-title">Základné foto</h3>
                         </div>
                         <div class="card-body">
                             <button class="btn btn-success" id="add-base-img" onclick="popupBaseImage(); return false;">
-                                Загрузить
+                                Pridať foto
                             </button>
                             <div id="base-img-output" class="upload-images base-image">
                                 <div class="product-img-upload">
@@ -107,11 +107,11 @@
                 <div class="col-md-12">
                     <div class="card card-outline card-success">
                         <div class="card-header">
-                            <h3 class="card-title">Дополнительные фото</h3>
+                            <h3 class="card-title">Ďalšie fotky</h3>
                         </div>
                         <div class="card-body">
                             <button class="btn btn-success" id="add-gallery-img"
-                                    onclick="popupGalleryImage(); return false;">Загрузить
+                                    onclick="popupGalleryImage(); return false;">Pridať fotky
                             </button>
                             <div id="gallery-img-output" class="upload-images gallery-image">
                                 <?php if (!empty($gallery)): ?>

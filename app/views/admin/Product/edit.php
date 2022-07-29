@@ -167,24 +167,24 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="keywords">Ключевые слова</label>
+                                    <label for="keywords">Kľúčové slová</label>
                                     <input type="text" name="product_description[<?= $lang['id'] ?>][keywords]"
-                                           class="form-control" id="keywords" placeholder="Ключевые слова"
+                                           class="form-control" id="keywords" placeholder="Kľúčové slová"
                                            value="<?= h($product[$lang['id']]['keywords']) ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="exerpt" class="required">Краткое описание</label>
+                                    <label for="exerpt" class="required">Krátky opis produktu</label>
                                     <input type="text" name="product_description[<?= $lang['id'] ?>][exerpt]"
-                                           class="form-control" id="exerpt" placeholder="Краткое описание"
+                                           class="form-control" id="exerpt" placeholder="Krátky opis produktu"
                                            value="<?= h($product[$lang['id']]['exerpt']) ?>">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="content">Описание товара</label>
+                                    <label for="content">Opis produktu</label>
                                     <textarea name="product_description[<?= $lang['id'] ?>][content]"
                                               class="form-control editor" id="content" rows="3"
-                                              placeholder="Описание товара"><?= h($product[$lang['id']]['content']) ?></textarea>
+                                              placeholder="Opis produktu"><?= h($product[$lang['id']]['content']) ?></textarea>
                                 </div>
 
                             </div>
@@ -194,7 +194,7 @@
                 <!-- /.card -->
             </div>
 
-            <button type="submit" class="btn btn-primary">Сохранить</button>
+            <button type="submit" class="btn btn-primary">Uložiť</button>
 
         </form>
 

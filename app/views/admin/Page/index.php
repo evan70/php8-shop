@@ -2,7 +2,7 @@
 <div class="card">
 
     <div class="card-header">
-        <a href="<?= ADMIN ?>/page/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Добавить страницу</a>
+        <a href="<?= ADMIN ?>/page/add" class="btn btn-default btn-flat"><i class="fas fa-plus"></i> Pridať stránku</a>
     </div>
 
     <div class="card-body">
@@ -13,7 +13,7 @@
                     <thead>
                     <tr>
                         <th>ID</th>
-                        <th>Наименование</th>
+                        <th>Názov</th>
                         <td width="50"><i class="fas fa-pencil-alt"></i></td>
                         <td width="50"><i class="far fa-trash-alt"></i></td>
                     </tr>
@@ -44,7 +44,7 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <p><?= count($pages) ?> страниц(а) из: <?= $total; ?></p>
+                    <p><?= count($pages) ?> stránok(а) z: <?= $total; ?></p>
                     <?php if ($pagination->countPages > 1): ?>
                         <?= $pagination; ?>
                     <?php endif; ?>
@@ -52,7 +52,7 @@
             </div>
 
         <?php else: ?>
-            <p>Страниц не найдено...</p>
+            <p>Žiadne stránky neboli nájdené ...</p>
         <?php endif; ?>
 
     </div>

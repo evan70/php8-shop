@@ -37,7 +37,7 @@ class DownloadController extends AppController
                         $_SESSION['errors'] = 'Chyba prípravy súboru';
                     }
                 } else {
-                    $_SESSION['errors'] = 'Chyba перемещения файла';
+                    $_SESSION['errors'] = 'Chyba prenosu súboru';
                 }
             }
             redirect();

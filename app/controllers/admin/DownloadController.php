@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers\admin;
-
 
 use app\models\admin\Download;
 use RedBeanPHP\R;
@@ -23,8 +21,8 @@ class DownloadController extends AppController
         $start = $pagination->getStart();
 
         $downloads = $this->model->get_downloads($lang, $start, $perpage);
-        $title = 'Файлы (цифровые товары)';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Súbory (digitálne produkty)';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'downloads', 'pagination', 'total'));
     }
 
@@ -34,12 +32,12 @@ class DownloadController extends AppController
             if ($this->model->download_validate()) {
                 if ($data = $this->model->upload_file()) {
                     if ($this->model->save_download($data)) {
-                        $_SESSION['success'] = 'Файл добавлен';
+                        $_SESSION['success'] = 'Súbor pripravený';
                     } else {
-                        $_SESSION['errors'] = 'Ошибка добавления файла';
+                        $_SESSION['errors'] = 'Chyba prípravy súboru';
                     }
                 } else {
-                    $_SESSION['errors'] = 'Ошибка перемещения файла';
+                    $_SESSION['errors'] = 'Chyba перемещения файла';
                 }
             }
             redirect();

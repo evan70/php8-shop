@@ -51,15 +51,15 @@ class DownloadController extends AppController
     {
         $id = get('id');
         if (R::count('order_download', 'download_id = ?', [$id])) {
-            $_SESSION['errors'] = 'Невозможно удалить - данный файл уже приобретался';
+            $_SESSION['errors'] = 'Súbor nie je možné vymazať - je viazaný k session';
             redirect();
         }
         if (R::count('product_download', 'download_id = ?', [$id])) {
-            $_SESSION['errors'] = 'Невозможно удалить - данный файл прикреплен к товару';
+            $_SESSION['errors'] = 'Súbor nie je možné vymazať - je viazaný na produkt';
             redirect();
         }
         if ($this->model->download_delete($id)) {
-            $_SESSION['success'] = 'Файл удален';
+            $_SESSION['success'] = 'Súbor vymazaný';
         } else {
             $_SESSION['errors'] = 'Ошибка удаления файла';
         }

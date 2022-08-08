@@ -42,8 +42,8 @@ class DownloadController extends AppController
             }
             redirect();
         }
-        $title = 'Добавление файла (цифрового товара)';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Nahranie súboru (digit. produkt)';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 

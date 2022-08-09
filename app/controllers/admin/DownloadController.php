@@ -61,7 +61,7 @@ class DownloadController extends AppController
         if ($this->model->download_delete($id)) {
             $_SESSION['success'] = 'Súbor vymazaný';
         } else {
-            $_SESSION['errors'] = 'Ошибка удаления файла';
+            $_SESSION['errors'] = 'Chyba vymazania súboru';
         }
         redirect();
     }

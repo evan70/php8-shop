@@ -1,6 +1,5 @@
 <?php
 
-
 namespace app\controllers\admin;
 
 use app\models\admin\Order;
@@ -23,8 +22,8 @@ class OrderController extends AppController
         $start = $pagination->getStart();
 
         $orders = $this->model->get_orders($start, $perpage, $status);
-        $title = 'Список заказов';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Zoznam objednávok';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'orders', 'pagination', 'total'));
     }
 
@@ -35,9 +34,9 @@ class OrderController extends AppController
         if (isset($_GET['status'])) {
             $status = get('status');
             if ($this->model->change_status($id, $status)) {
-                $_SESSION['success'] = 'Статус заказа изменен';
+                $_SESSION['success'] = 'Stav objednávky bol zmenený';
             } else {
-                $_SESSION['errors'] = 'Ошибка изменения статуса заказа';
+                $_SESSION['errors'] = 'Chyba zmeny stavu objednávky';
             }
         }
 
@@ -45,7 +44,7 @@ class OrderController extends AppController
         if (!$order) {
             throw new \Exception('Not found order', 404);
         }
-        $title = "Заказ № {$id}";
+        $title = "Objednávka č. {$id}";
         $this->setMeta("Админка :: {$title}");
         $this->set(compact('title', 'order'));
     }

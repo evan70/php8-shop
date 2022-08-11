@@ -30,9 +30,9 @@ class PageController extends AppController
     {
         $id = get('id');
         if ($this->model->deletePage($id)) {
-            $_SESSION['success'] = 'Страница удалена';
+            $_SESSION['success'] = 'Stránka bola vymazaná';
         } else {
-            $_SESSION['errors'] = 'Ошибка удаления страницы';
+            $_SESSION['errors'] = 'Chyba vymazania stránky';
         }
         redirect();
     }
@@ -42,16 +42,16 @@ class PageController extends AppController
         if (!empty($_POST)) {
             if ($this->model->page_validate()) {
                 if ($this->model->save_page()) {
-                    $_SESSION['success'] = 'Страница добавлена';
+                    $_SESSION['success'] = 'Stránka bola pridaná';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка добавления страницы';
+                    $_SESSION['errors'] = 'Chyba pridania stránky';
                 }
             }
             redirect();
         }
 
-        $title = 'Новая страница';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Nová stránka';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 

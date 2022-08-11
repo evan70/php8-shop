@@ -45,7 +45,7 @@ class OrderController extends AppController
             throw new \Exception('Not found order', 404);
         }
         $title = "Objednávka č. {$id}";
-        $this->setMeta("Админка :: {$title}");
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'order'));
     }
 

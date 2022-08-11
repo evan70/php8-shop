@@ -62,9 +62,9 @@ class PageController extends AppController
         if (!empty($_POST)) {
             if ($this->model->page_validate()) {
                 if ($this->model->update_page($id)) {
-                    $_SESSION['success'] = 'Страница сохранена';
+                    $_SESSION['success'] = 'Stránka bola uložená';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка обновления страницы';
+                    $_SESSION['errors'] = 'Chyba uloženia stránky';
                 }
             }
             redirect();
@@ -74,8 +74,8 @@ class PageController extends AppController
         if (!$page) {
             throw new \Exception('Not found page', 404);
         }
-        $title = 'Редактирование страницы';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Úprava stránky';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'page'));
     }
 

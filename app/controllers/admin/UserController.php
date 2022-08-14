@@ -29,7 +29,7 @@ class UserController extends AppController
         $id = get('id');
         $user = $this->model->get_user($id);
         if (!$user) {
-            throw new \Exception('Not founud user', 404);
+            throw new \Exception('User not found', 404);
         }
 
         $page = get('page');

@@ -16,7 +16,7 @@ class SliderController extends AppController
             redirect();
         }
         $gallery = $this->model->get_slides();
-        $title = 'Slider';
+        $title = 'Slajder';
         $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'gallery'));
     }

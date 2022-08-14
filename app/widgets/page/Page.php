@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\widgets\page;
-
 
 use RedBeanPHP\R;
 use wfm\App;

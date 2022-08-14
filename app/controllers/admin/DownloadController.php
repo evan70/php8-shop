@@ -32,7 +32,7 @@ class DownloadController extends AppController
             if ($this->model->download_validate()) {
                 if ($data = $this->model->upload_file()) {
                     if ($this->model->save_download($data)) {
-                        $_SESSION['success'] = 'Súbor pripravený';
+                        $_SESSION['success'] = 'Súbor je pripravený';
                     } else {
                         $_SESSION['errors'] = 'Chyba prípravy súboru';
                     }

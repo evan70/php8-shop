@@ -44,15 +44,15 @@ class CategoryController extends AppController
         if (!empty($_POST)) {
             if ($this->model->category_validate()) {
                 if ($this->model->save_category()) {
-                    $_SESSION['success'] = 'Категория сохранена';
+                    $_SESSION['success'] = 'Kategória úspešne uložená';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка!';
+                    $_SESSION['errors'] = 'Chyba!';
                 }
             }
             redirect();
         }
-        $title = 'Добавление категории';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Pridať kategóriu';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title'));
     }
 
@@ -62,9 +62,9 @@ class CategoryController extends AppController
         if (!empty($_POST)) {
             if ($this->model->category_validate()) {
                 if ($this->model->update_category($id)) {
-                    $_SESSION['success'] = 'Категория обновлена';
+                    $_SESSION['success'] = 'Kategória bola upravená';
                 } else {
-                    $_SESSION['errors'] = 'Ошибка!';
+                    $_SESSION['errors'] = 'Chyba!';
                 }
             }
             redirect();
@@ -75,8 +75,8 @@ class CategoryController extends AppController
         }
         $lang = App::$app->getProperty('language')['id'];
         App::$app->setProperty('parent_id', $category[$lang]['parent_id']);
-        $title = 'Редактирование категории';
-        $this->setMeta("Админка :: {$title}");
+        $title = 'Úprava kategórií';
+        $this->setMeta("Admin :: {$title}");
         $this->set(compact('title', 'category'));
     }
 

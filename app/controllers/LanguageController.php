@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Cart;
 use wfm\App;
@@ -15,22 +13,22 @@ class LanguageController extends AppController
         $lang = get('lang', 's');
         if ($lang) {
             if (array_key_exists($lang, App::$app->getProperty('languages'))) {
-                // отрезаем базовый URL
+                // trim base url
                 $url = trim(str_replace(PATH, '', $_SERVER['HTTP_REFERER']), '/');
 
-                // разбиваем на 2 части... 1-я часть - возможный бывший язык
+                // 2 url parts... 1st language
                 $url_parts = explode('/', $url, 2);
-                // ищем первую часть (бывший язык) в массиве языков
+                // find language in lang. array
                 if (array_key_exists($url_parts[0], App::$app->getProperty('languages'))) {
-                    // присваиваем первой части новый язык, если он не является базовым
+                    // get new lang. to url if not base lang.
                     if ($lang != App::$app->getProperty('language')['code']) {
                         $url_parts[0] = $lang;
                     } else {
-                        // если это базовый язык - удалим язык из url
+                        // if base lang. - remove from url
                         array_shift($url_parts);
                     }
                 } else {
-                    // присваиваем первой части новый язык, если он не является базовым
+                    // add new lang, if not base language
                     if ($lang != App::$app->getProperty('language')['code']) {
                         array_unshift($url_parts, $lang);
                     }

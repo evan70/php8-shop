@@ -48,7 +48,7 @@ class UserController extends AppController
     {
         if (!empty($_POST)) {
             $this->model->load();
-            if (!$this->model->validate($this->model->attributes) || !$this->model->checkUnique('E-mail je už použitý')) {
+            if (!$this->model->validate($this->model->attributes) || !$this->model->checkUnique('Tento e-mail je už použitý')) {
                 $this->model->getErrors();
                 $_SESSION['form_data'] = $_POST;
             } else {

@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Cart;
 use app\models\Order;
@@ -73,7 +71,7 @@ class CartController extends AppController
     public function checkoutAction()
     {
         if (!empty($_POST)) {
-            // регистрация пользователя, если не авторизован
+            // rerister user if not authorized
             if (!User::checkAuth()) {
                 $user = new User();
                 $user->load();
@@ -90,7 +88,7 @@ class CartController extends AppController
                 }
             }
 
-            // сохраняем заказ
+            // save order
             $data['user_id'] = $user_id ?? $_SESSION['user']['id'];
             $data['note'] = post('note');
             $user_email = $_SESSION['user']['email'] ?? post('email');

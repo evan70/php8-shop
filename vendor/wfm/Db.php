@@ -1,8 +1,6 @@
 <?php
 
-
 namespace wfm;
-
 
 use RedBeanPHP\R;
 

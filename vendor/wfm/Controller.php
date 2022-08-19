@@ -1,8 +1,6 @@
 <?php
 
-
 namespace wfm;
-
 
 abstract class Controller
 {
@@ -12,7 +10,6 @@ abstract class Controller
     public false|string $layout = '';
     public string $view = '';
     public object $model;
-
 
     public function __construct(public $route = [])
     {

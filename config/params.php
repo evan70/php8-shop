@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'admin_email' => 'admin@new-ishop.loc',
-    'site_name' => 'babuel.com eshop',
+    'admin_email' => 'admin@nodb8.local',
+    'site_name' => 'test.com eshop',
     'pagination' => 3,
 
 /*  'smtp_host' => 'smtp.mailtrap.io',

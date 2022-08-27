@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\controllers;
-
 
 use app\models\Breadcrumbs;
 use app\models\Product;
@@ -18,7 +16,7 @@ class ProductController extends AppController
         $product = $this->model->get_product($this->route['slug'], $lang);
 
         if (!$product) {
-//            throw new \Exception("Товар по запросу {$this->route['slug']} не найден", 404);
+           //throw new \Exception("Hľadaný produkt {$this->route['slug']} nebol nájdený", 404);
             $this->error_404();
             return;
         }

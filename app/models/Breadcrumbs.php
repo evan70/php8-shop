@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\models;
-
 
 use wfm\App;
 

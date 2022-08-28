@@ -1,6 +1,5 @@
 <?php
 
-
 namespace app\models;
 
 use RedBeanPHP\R;
@@ -25,13 +24,13 @@ class AppModel extends Model
 
     public static function str2url($str): string
     {
-        // переводим в транслит
+        // preklad do translit
         $str = self::rus2translit($str);
-        // в нижний регистр
+        // na male znaky
         $str = strtolower($str);
-        // заменям все ненужное нам на "-"
+        // a vsetky nepotrebne znaky na "-"
         $str = preg_replace('~[^-a-z0-9]+~u', '-', $str);
-        // удаляем начальные и конечные '-'
+        // vymazeme zaciatocne a konecne znaky '-'
         $str = trim($str, "-");
         return $str;
     }
